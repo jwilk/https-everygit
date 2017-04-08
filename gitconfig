@@ -1,0 +1,93 @@
+# Automatically generated from src.
+# Do not edit directly.
+
+[url "https://anongit.freedesktop.org/git/"]
+	insteadOf = git://anongit.freedesktop.org/
+	insteadOf = git://anongit.freedesktop.org/git/
+	insteadOf = git://git.freedesktop.org/
+	insteadOf = git://git.freedesktop.org/git/
+	insteadOf = http://anongit.freedesktop.org/git/
+
+[url "https://anongit.gentoo.org/git/"]
+	insteadOf = git://anongit.gentoo.org/
+	insteadOf = http://anongit.gentoo.org/git/
+
+[url "https://anongit.mindrot.org/"]
+	insteadOf = git://anongit.mindrot.org/
+	insteadOf = http://anongit.mindrot.org/
+
+[url "https://anonscm.debian.org/git/"]
+	insteadOf = git://anonscm.debian.org/
+	insteadOf = git://anonscm.debian.org/git/
+	insteadOf = git://git.debian.org/
+	insteadOf = git://git.debian.org/git/
+	insteadOf = http://anonscm.debian.org/git/
+
+[url "https://code.qt.io/"]
+	insteadOf = git://code.qt.io/
+	insteadOf = http://code.qt.io/
+
+[url "https://git.code.sf.net/"]
+	insteadOf = git://git.code.sf.net/
+	insteadOf = http://git.code.sf.net/
+
+[url "https://git.ffmpeg.org/"]
+	insteadOf = git://git.ffmpeg.org/
+	insteadOf = http://git.ffmpeg.org/
+
+[url "https://git.gnome.org/browse/"]
+	insteadOf = git://git.gnome.org/
+	insteadOf = http://git.gnome.org/browse/
+
+[url "https://git.gnupg.org/"]
+	insteadOf = git://git.gnupg.org/
+	insteadOf = http://git.gnupg.org/
+
+[url "https://git.hadrons.org/"]
+	insteadOf = git://git.hadrons.org/
+	insteadOf = http://git.hadrons.org/
+
+[url "https://git.kernel.org/"]
+	insteadOf = git://git.kernel.org/
+	insteadOf = http://git.kernel.org/
+
+[url "https://git.libssh.org/"]
+	insteadOf = git://git.libssh.org/
+	insteadOf = http://git.libssh.org/
+
+[url "https://git.lxde.org/git/"]
+	insteadOf = git://git.lxde.org/
+	insteadOf = git://git.lxde.org/git/
+	insteadOf = http://git.lxde.org/git/
+
+[url "https://git.openstack.org/"]
+	insteadOf = git://git.openstack.org/
+	insteadOf = http://git.openstack.org/
+
+[url "https://git.samba.org/"]
+	insteadOf = git://git.samba.org/
+	insteadOf = http://git.samba.org/
+
+[url "https://git.savannah.gnu.org/git/"]
+	insteadOf = git://git.savannah.gnu.org/
+	insteadOf = git://git.sv.gnu.org/
+	insteadOf = http://git.savannah.gnu.org/git/
+
+[url "https://git.savannah.nongnu.org/git/"]
+	insteadOf = git://git.savannah.nongnu.org/
+	insteadOf = git://git.sv.nongnu.org/
+	insteadOf = http://git.savannah.nongnu.org/git/
+
+[url "https://git.videolan.org/git/"]
+	insteadOf = git://git.videolan.org/
+	insteadOf = http://git.videolan.org/git/
+
+[url "https://git.xiph.org/"]
+	insteadOf = git://git.xiph.org/
+	insteadOf = http://git.xiph.org/
+
+[url "https://github.com/"]
+	insteadOf = git://github.com/
+	insteadOf = http://github.com/
+
+# vim:ft=gitconfig

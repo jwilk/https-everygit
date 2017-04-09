@@ -2,7 +2,9 @@ language: perl
 perl:
 - "5.8"
 - "5.24"
-install: []
+install:
+- cpanm IPC::System::Simple
 script:
 - make -B
 - git diff --exit-code
+- make test-online

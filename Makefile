@@ -8,4 +8,12 @@ gitconfig: src devel/mk-gitconfig
 	devel/mk-gitconfig < $(<) > $(@).tmp
 	mv $(@).tmp $(@)
 
+.PHONY: test
+test:
+	prove -v
+
+.PHONY: test-online
+test-online:
+	HTTPS_EVERYGIT_ONLINE_TESTS=1 prove -v
+
 # vim:ts=4 sts=4 sw=4 noet

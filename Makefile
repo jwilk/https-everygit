@@ -1,8 +1,11 @@
+export LC_ALL=C
+
 .PHONY: all
 
 all: gitconfig
 
 gitconfig: src tools/mk-gitconfig
+	sort -c src
 	tools/mk-gitconfig < $(<) > $(@).tmp
 	mv $(@).tmp $(@)
 

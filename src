@@ -23,8 +23,8 @@ git://git.openstack.org/ -> https://git.openstack.org/
 git://git.samba.org/ -> https://git.samba.org/
 git://git.savannah.gnu.org/ -> https://git.savannah.gnu.org/git/
 git://git.savannah.nongnu.org/ -> https://git.savannah.nongnu.org/git/
-git://git.sv.gnu.org/ -> https://git.savannah.gnu.org/git/
-git://git.sv.nongnu.org/ -> https://git.savannah.nongnu.org/git/
+git://git.sv.gnu.org/ -> https://git.sv.gnu.org/git/
+git://git.sv.nongnu.org/ -> https://git.sv.nongnu.org/git/
 git://git.videolan.org/ -> https://git.videolan.org/git/
 git://git.xiph.org/ -> https://git.xiph.org/
 git://github.com/ -> https://github.com/

@@ -51,6 +51,10 @@
 	insteadOf = git://git.kernel.org/
 	insteadOf = http://git.kernel.org/
 
+[url "https://git.launchpad.net"]
+	insteadOf = git://git.launchpad.net
+	insteadOf = http://git.launchpad.net
+
 [url "https://git.libssh.org/"]
 	insteadOf = git://git.libssh.org/
 	insteadOf = http://git.libssh.org/

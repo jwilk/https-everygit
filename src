@@ -12,7 +12,6 @@ git://git.ffmpeg.org/ -> https://git.ffmpeg.org/
 git://git.freedesktop.org/ -> https://anongit.freedesktop.org/git/
 git://git.freedesktop.org/git/ -> https://anongit.freedesktop.org/git/
 git://git.gnome.org/ -> https://git.gnome.org/browse/
-git://git.gnupg.org/ -> https://git.gnupg.org/
 git://git.hadrons.org/ -> https://git.hadrons.org/
 git://git.kernel.org/ -> https://git.kernel.org/
 git://git.launchpad.net/ -> https://git.launchpad.net/

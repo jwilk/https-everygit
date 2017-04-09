@@ -39,10 +39,6 @@
 	insteadOf = git://git.gnome.org/
 	insteadOf = http://git.gnome.org/browse/
 
-[url "https://git.gnupg.org/"]
-	insteadOf = git://git.gnupg.org/
-	insteadOf = http://git.gnupg.org/
-
 [url "https://git.hadrons.org/"]
 	insteadOf = git://git.hadrons.org/
 	insteadOf = http://git.hadrons.org/

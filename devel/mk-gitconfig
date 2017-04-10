@@ -28,7 +28,7 @@ my %insteadof;
 print "# Automatically generated from src.\n";
 print "# Do not edit directly.\n\n";
 
-for my $line (<STDIN>) {
+while (defined(my $line = <ARGV>)) {
     $line =~ /^(\S+) -> (\S+)$/ or die;
     my $src = $1;
     my $dst = $2;

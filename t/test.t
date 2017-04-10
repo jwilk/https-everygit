@@ -106,14 +106,20 @@ SKIP: {
             eval {
                 $ls_src = ls_remote($src);
             } or do {
-                local $TODO = "$src is offline" if exists $repos_offline{$src};
+                local $TODO = undef;
+                if (exists $repos_offline{$src}) {
+                    $TODO = "$src is offline";
+                }
                 fail("remote $src");
                 next;
             };
             eval {
                 $ls_dst = ls_remote($dst);
             } or do {
-                local $TODO = "$dst is offline" if exists $repos_offline{$dst};
+                local $TODO = undef;
+                if (exists $repos_offline{$dst}) {
+                    $TODO = "$dst is offline" ;
+                }
                 fail("remote $dst");
                 next;
             };

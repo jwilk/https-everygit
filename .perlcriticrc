@@ -1,0 +1,35 @@
+severity = 1
+verbose = %f:%l: [%p] %m\n
+
+[-CodeLayout::ProhibitParensWithBuiltins]
+# no, thanks
+
+[-CodeLayout::RequireTidyCode]
+# perltidy is too limited for our purposes
+
+[-ErrorHandling::RequireCarping]
+# "die" is good enough
+
+[InputOutput::RequireBriefOpen]
+lines = 20
+
+[InputOutput::RequireCheckedSyscalls]
+functions = :builtins
+exclude_functions = print
+
+[Modules::ProhibitExcessMainComplexity]
+max_mccabe = 30
+
+[-Modules::RequireVersionVar]
+# we don't have any public modules
+# see also https://bugs.debian.org/706266
+
+[-RegularExpressions::RequireDotMatchAnything]
+[-RegularExpressions::RequireExtendedFormatting]
+[-RegularExpressions::RequireLineBoundaryMatching]
+# no, thanks
+
+[-ValuesAndExpressions::ProhibitEmptyQuotes]
+# no, thanks
+
+# vim:ft=dosini

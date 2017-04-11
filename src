@@ -34,6 +34,7 @@ git://git.videolan.org/ -> https://git.videolan.org/git/
 git://git.xapian.org/ -> https://git.xapian.org/
 git://git.xiph.org/ -> https://git.xiph.org/
 git://github.com/ -> https://github.com/
+git://perl5.git.perl.org/ -> https://perl5.git.perl.org/
 git://sourceware.org/git/ -> https://sourceware.org/git/
 http://bitbucket.org/ -> https://bitbucket.org/
 http://bugs.debian.org/ -> https://bugs.debian.org/

@@ -166,6 +166,10 @@
 [url "https://pagure.io/"]
 	insteadOf = http://pagure.io/
 
+[url "https://perl5.git.perl.org/"]
+	insteadOf = git://perl5.git.perl.org/
+	insteadOf = http://perl5.git.perl.org/
+
 [url "https://sourceware.org/git/"]
 	insteadOf = git://sourceware.org/git/
 	insteadOf = http://sourceware.org/git/

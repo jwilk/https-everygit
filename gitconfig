@@ -17,6 +17,8 @@
 	insteadOf = http://anongit.mindrot.org/
 
 [url "https://anonscm.debian.org/git/"]
+	insteadOf = git://alioth.debian.org/
+	insteadOf = git://alioth.debian.org/git/
 	insteadOf = git://anonscm.debian.org/
 	insteadOf = git://anonscm.debian.org/git/
 	insteadOf = git://git.debian.org/

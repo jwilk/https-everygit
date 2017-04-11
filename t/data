@@ -1,3 +1,5 @@
+git://alioth.debian.org/dpkg/dpkg.git -> https://anonscm.debian.org/git/dpkg/dpkg.git
+git://alioth.debian.org/git/dpkg/dpkg.git -> https://anonscm.debian.org/git/dpkg/dpkg.git
 git://anongit.freedesktop.org/git/xdg/shared-mime-info.git -> https://anongit.freedesktop.org/git/xdg/shared-mime-info.git
 git://anongit.freedesktop.org/xdg/shared-mime-info.git -> https://anongit.freedesktop.org/git/xdg/shared-mime-info.git
 git://anongit.gentoo.org/proj/pax-utils.git -> https://anongit.gentoo.org/git/proj/pax-utils.git

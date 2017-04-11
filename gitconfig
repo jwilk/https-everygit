@@ -155,6 +155,9 @@
 [url "https://gitlab.com/"]
 	insteadOf = http://gitlab.com/
 
+[url "https://gitlab.kitware.com/"]
+	insteadOf = http://gitlab.kitware.com/
+
 [url "https://sourceware.org/git/"]
 	insteadOf = git://sourceware.org/git/
 	insteadOf = http://sourceware.org/git/

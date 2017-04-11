@@ -25,7 +25,7 @@ use warnings;
 
 my %insteadof;
 
-print "# Automatically generated from src.\n";
+print "# Automatically generated from the data file.\n";
 print "# Do not edit directly.\n\n";
 
 while (defined(my $line = <ARGV>)) {

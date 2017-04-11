@@ -69,7 +69,7 @@ my %repos = ();
 
 my %prefixes = ();
 {
-    open(my $file, '<', "$basedir/src");
+    open(my $file, '<', "$basedir/data");
     while (defined(my $line  = <$file>)) {
         $line =~ m{^(?!https:)(\S+/) -> (https://\S+/)$} or die;
         my ($src, $dst) = ($1, $2);

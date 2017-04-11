@@ -7,8 +7,8 @@ endif
 .PHONY: all
 all: gitconfig
 
-gitconfig: src devel/mk-gitconfig
-	sort -c src
+gitconfig: data devel/mk-gitconfig
+	sort -c $(<)
 	devel/mk-gitconfig < $(<) > $(@).tmp
 	mv $(@).tmp $(@)
 

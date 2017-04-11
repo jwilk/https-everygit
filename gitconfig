@@ -173,6 +173,9 @@
 [url "https://ruderich.org/simon/"]
 	insteadOf = http://ruderich.org/simon/
 
+[url "https://scm.gforge.inria.fr/anonscm/git/"]
+	insteadOf = http://scm.gforge.inria.fr/anonscm/git/
+
 [url "https://sourceware.org/git/"]
 	insteadOf = git://sourceware.org/git/
 	insteadOf = http://sourceware.org/git/

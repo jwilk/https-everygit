@@ -71,17 +71,15 @@ my %prefixes = ();
 {
     open(my $file, '<', "$basedir/src");
     while (defined(my $line  = <$file>)) {
-        $line =~ m{^(\S+/) -> (\S+/)$} or die;
+        $line =~ m{^(?!https:)(\S+/) -> (https://\S+/)$} or die;
         my ($src, $dst) = ($1, $2);
         exists $prefixes{$src} and die;
         if ($src =~ $filter) {
             $prefixes{$src} = 1;
         }
-        if ($dst =~ /^https:/) {
-            ($src = $dst) =~ s//http:/;
-            if ($src =~ $filter) {
-                $prefixes{$src} = 0;
-            }
+        ($src = $dst) =~ s/^https:/http:/ or die;
+        if ($src =~ $filter) {
+            $prefixes{$src} = 0;
         }
     }
     close($file);

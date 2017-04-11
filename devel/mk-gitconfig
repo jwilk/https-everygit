@@ -29,14 +29,12 @@ print "# Automatically generated from src.\n";
 print "# Do not edit directly.\n\n";
 
 while (defined(my $line = <ARGV>)) {
-    $line =~ m{^(\S+/) -> (\S+/)$} or die;
+    $line =~ m{^(?!https:)(\S+/) -> (https://\S+/)$} or die;
     my $src = $1;
     my $dst = $2;
     $insteadof{$dst}{$src} = 1;
-    if ($dst =~ /^https:/) {
-        ($src = $dst) =~ s//http:/;
-        $insteadof{$dst}{$src} = 1;
-    }
+    ($src = $dst) =~ s/^https:/http:/ or die;
+    $insteadof{$dst}{$src} = 1;
 }
 for my $dst (sort keys %insteadof)
 {

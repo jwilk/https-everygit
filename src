@@ -41,6 +41,7 @@ http://chromium.googlesource.com/ -> https://chromium.googlesource.com/
 http://code.wireshark.org/ -> https://code.wireshark.org/
 http://forge.imag.fr/anonscm/git/ -> https://forge.imag.fr/anonscm/git/
 http://git.decadent.org.uk/git/ -> https://git.decadent.org.uk/git/
+http://git.einval.com/git/ -> https://git.einval.com/git/
 http://git.guilhem.org/ -> https://git.guilhem.org/
 http://git.lysator.liu.se/ -> https://git.lysator.liu.se/
 http://git.pwmt.org/ -> https://git.pwmt.org/
@@ -49,4 +50,3 @@ http://gitlab.com/ -> https://gitlab.com/
 http://gitlab.kitware.com/ -> https://gitlab.kitware.com/
 http://gitlab.mister-muffin.de/ -> https://gitlab.mister-muffin.de/
 http://pagure.io/ -> https://pagure.io/
-https://git.einval.com/git/ -> https://git.einval.com/git/

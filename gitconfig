@@ -64,7 +64,6 @@
 
 [url "https://git.einval.com/git/"]
 	insteadOf = http://git.einval.com/git/
-	insteadOf = https://git.einval.com/git/
 
 [url "https://git.ffmpeg.org/"]
 	insteadOf = git://git.ffmpeg.org/

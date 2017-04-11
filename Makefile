@@ -10,10 +10,10 @@ gitconfig: src devel/mk-gitconfig
 
 .PHONY: test
 test:
-	prove -v
+	prove -v :: $(only)
 
 .PHONY: test-online
 test-online:
-	HTTPS_EVERYGIT_ONLINE_TESTS=1 prove -v
+	HTTPS_EVERYGIT_ONLINE_TESTS=1 prove -v :: $(only)
 
 # vim:ts=4 sts=4 sw=4 noet

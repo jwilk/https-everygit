@@ -17,6 +17,10 @@
 	insteadOf = git://anongit.gentoo.org/
 	insteadOf = http://anongit.gentoo.org/git/
 
+[url "https://anongit.kde.org/"]
+	insteadOf = git://anongit.kde.org/
+	insteadOf = http://anongit.kde.org/
+
 [url "https://anongit.mindrot.org/"]
 	insteadOf = git://anongit.mindrot.org/
 	insteadOf = http://anongit.mindrot.org/

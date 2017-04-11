@@ -3,6 +3,7 @@ git://alioth.debian.org/git/dpkg/dpkg.git -> https://alioth.debian.org/anonscm/g
 git://anongit.freedesktop.org/git/xdg/shared-mime-info.git -> https://anongit.freedesktop.org/git/xdg/shared-mime-info.git
 git://anongit.freedesktop.org/xdg/shared-mime-info.git -> https://anongit.freedesktop.org/git/xdg/shared-mime-info.git
 git://anongit.gentoo.org/proj/pax-utils.git -> https://anongit.gentoo.org/git/proj/pax-utils.git
+git://anongit.kde.org/konsole.git -> https://anongit.kde.org/konsole.git
 git://anongit.mindrot.org/openssh.git -> https://anongit.mindrot.org/openssh.git
 git://anonscm.debian.org/dpkg/dpkg.git -> https://anonscm.debian.org/git/dpkg/dpkg.git
 git://anonscm.debian.org/git/dpkg/dpkg.git -> https://anonscm.debian.org/git/dpkg/dpkg.git
@@ -37,6 +38,7 @@ git://sourceware.org/git/glibc.git -> https://sourceware.org/git/glibc.git
 http://alioth.debian.org/anonscm/git/dpkg/dpkg.git -> https://alioth.debian.org/anonscm/git/dpkg/dpkg.git
 http://anongit.freedesktop.org/git/xdg/shared-mime-info.git -> https://anongit.freedesktop.org/git/xdg/shared-mime-info.git
 http://anongit.gentoo.org/git/proj/pax-utils.git -> https://anongit.gentoo.org/git/proj/pax-utils.git
+http://anongit.kde.org/konsole.git -> https://anongit.kde.org/konsole.git
 http://anongit.mindrot.org/openssh.git -> https://anongit.mindrot.org/openssh.git
 http://anonscm.debian.org/git/dpkg/dpkg.git -> https://anonscm.debian.org/git/dpkg/dpkg.git
 http://bitbucket.org/pypy/numpy.git -> https://bitbucket.org/pypy/numpy.git

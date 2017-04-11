@@ -63,6 +63,7 @@ http://git.savannah.nongnu.org/git/freetype/freetype2.git -> https://git.savanna
 http://git.sv.gnu.org/git/coreutils.git -> https://git.sv.gnu.org/git/coreutils.git
 http://git.sv.nongnu.org/git/freetype/freetype2.git -> https://git.sv.nongnu.org/git/freetype/freetype2.git
 http://git.tartarus.org/simon/agedu.git -> https://git.tartarus.org/simon/agedu.git
+http://git.tasktools.org/TM/task.git -> https://git.tasktools.org/TM/task.git
 http://git.videolan.org/git/ffmpeg.git -> https://git.videolan.org/git/ffmpeg.git
 http://git.xiph.org/ogg.git -> https://git.xiph.org/ogg.git
 http://github.com/github/hub.git -> https://github.com/github/hub.git

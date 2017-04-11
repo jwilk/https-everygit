@@ -28,6 +28,7 @@ git://git.savannah.gnu.org/ -> https://git.savannah.gnu.org/git/
 git://git.savannah.nongnu.org/ -> https://git.savannah.nongnu.org/git/
 git://git.sv.gnu.org/ -> https://git.sv.gnu.org/git/
 git://git.sv.nongnu.org/ -> https://git.sv.nongnu.org/git/
+git://git.tartarus.org/ -> https://git.tartarus.org/
 git://git.videolan.org/ -> https://git.videolan.org/git/
 git://git.xiph.org/ -> https://git.xiph.org/
 git://github.com/ -> https://github.com/

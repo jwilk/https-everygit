@@ -37,6 +37,7 @@ http://anonscm.debian.org/git/dpkg/dpkg.git -> https://anonscm.debian.org/git/dp
 http://bitbucket.org/pypy/numpy.git -> https://bitbucket.org/pypy/numpy.git
 http://blitiri.com.ar/repos/libfiu -> https://blitiri.com.ar/repos/libfiu
 http://bugs.debian.org/debbugs-source/debbugs.git/ -> https://bugs.debian.org/debbugs-source/debbugs.git/
+http://chromium.googlesource.com/webm/libwebp -> https://chromium.googlesource.com/webm/libwebp
 http://code.qt.io/qt/qt5.git -> https://code.qt.io/qt/qt5.git
 http://git.code.sf.net/p/zsh/code -> https://git.code.sf.net/p/zsh/code
 http://git.ffmpeg.org/ffmpeg.git -> https://git.ffmpeg.org/ffmpeg.git

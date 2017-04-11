@@ -38,6 +38,9 @@
 [url "https://bugs.debian.org/"]
 	insteadOf = http://bugs.debian.org/
 
+[url "https://chromium.googlesource.com/"]
+	insteadOf = http://chromium.googlesource.com/
+
 [url "https://code.qt.io/"]
 	insteadOf = git://code.qt.io/
 	insteadOf = http://code.qt.io/

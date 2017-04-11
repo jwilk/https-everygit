@@ -28,6 +28,9 @@
 	insteadOf = git://git.debian.org/git/
 	insteadOf = http://anonscm.debian.org/git/
 
+[url "https://bitbucket.org/"]
+	insteadOf = http://bitbucket.org/
+
 [url "https://code.qt.io/"]
 	insteadOf = git://code.qt.io/
 	insteadOf = http://code.qt.io/

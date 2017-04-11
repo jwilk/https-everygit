@@ -75,4 +75,5 @@ http://github.com/github/hub.git -> https://github.com/github/hub.git
 http://gitlab.com/cryptsetup/cryptsetup -> https://gitlab.com/cryptsetup/cryptsetup
 http://gitlab.kitware.com/cmake/cmake.git -> https://gitlab.kitware.com/cmake/cmake.git
 http://gitlab.mister-muffin.de/josch/img2pdf.git OFFLINE -> https://gitlab.mister-muffin.de/josch/img2pdf.git
+http://pagure.io/liberation-fonts.git -> https://pagure.io/liberation-fonts.git
 http://sourceware.org/git/glibc.git -> https://sourceware.org/git/glibc.git

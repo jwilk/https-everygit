@@ -47,6 +47,7 @@ http://git.decadent.org.uk/git/debian-secure-boot.git -> https://git.decadent.or
 http://git.einval.com/git/jigit.git -> https://git.einval.com/git/jigit.git
 http://git.ffmpeg.org/ffmpeg.git -> https://git.ffmpeg.org/ffmpeg.git
 http://git.gnome.org/browse/gimp -> https://git.gnome.org/browse/gimp
+http://git.guilhem.org/lacme -> https://git.guilhem.org/lacme
 http://git.hadrons.org/git/libmd.git -> https://git.hadrons.org/git/libmd.git
 http://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git -> https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
 http://git.launchpad.net/postfix -> https://git.launchpad.net/postfix

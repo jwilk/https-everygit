@@ -71,7 +71,7 @@ my %prefixes = ();
 {
     open(my $file, '<', "$basedir/src");
     while (defined(my $line  = <$file>)) {
-        $line =~ /^(\S+) -> (\S+)$/ or die;
+        $line =~ m{^(\S+/) -> (\S+/)$} or die;
         my ($src, $dst) = ($1, $2);
         exists $prefixes{$src} and die;
         if ($src =~ $filter) {

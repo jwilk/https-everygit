@@ -53,4 +53,5 @@ http://git.sv.nongnu.org/git/freetype/freetype2.git -> https://git.sv.nongnu.org
 http://git.videolan.org/git/ffmpeg.git -> https://git.videolan.org/git/ffmpeg.git
 http://git.xiph.org/ogg.git -> https://git.xiph.org/ogg.git
 http://github.com/github/hub.git -> https://github.com/github/hub.git
+http://gitlab.com/cryptsetup/cryptsetup -> https://gitlab.com/cryptsetup/cryptsetup
 http://sourceware.org/git/glibc.git -> https://sourceware.org/git/glibc.git

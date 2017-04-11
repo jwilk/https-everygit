@@ -107,6 +107,9 @@
 	insteadOf = git://github.com/
 	insteadOf = http://github.com/
 
+[url "https://gitlab.com/"]
+	insteadOf = http://gitlab.com/
+
 [url "https://sourceware.org/git/"]
 	insteadOf = git://sourceware.org/git/
 	insteadOf = http://sourceware.org/git/

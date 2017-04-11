@@ -95,6 +95,9 @@
 	insteadOf = git://git.lxde.org/git/
 	insteadOf = http://git.lxde.org/git/
 
+[url "https://git.lysator.liu.se/"]
+	insteadOf = http://git.lysator.liu.se/
+
 [url "https://git.openstack.org/"]
 	insteadOf = git://git.openstack.org/
 	insteadOf = http://git.openstack.org/

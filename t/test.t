@@ -106,7 +106,7 @@ SKIP: {
         my ($url) = @_;
         my $cached = $ls_remote_cache{$url};
         return $cached if defined $cached;
-        my $output = capture('git', '-C', $tmpdir, 'ls-remote', $url, 'HEAD');
+        my $output = capture('timeout', '10s', 'git', '-C', $tmpdir, 'ls-remote', $url, 'HEAD');
         $ls_remote_cache{$url} = $output;
         return $output;
     }

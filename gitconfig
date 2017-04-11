@@ -1,6 +1,11 @@
 # Automatically generated from src.
 # Do not edit directly.
 
+[url "https://alioth.debian.org/anonscm/git/"]
+	insteadOf = git://alioth.debian.org/
+	insteadOf = git://alioth.debian.org/git/
+	insteadOf = http://alioth.debian.org/anonscm/git/
+
 [url "https://anongit.freedesktop.org/git/"]
 	insteadOf = git://anongit.freedesktop.org/
 	insteadOf = git://anongit.freedesktop.org/git/
@@ -17,8 +22,6 @@
 	insteadOf = http://anongit.mindrot.org/
 
 [url "https://anonscm.debian.org/git/"]
-	insteadOf = git://alioth.debian.org/
-	insteadOf = git://alioth.debian.org/git/
 	insteadOf = git://anonscm.debian.org/
 	insteadOf = git://anonscm.debian.org/git/
 	insteadOf = git://git.debian.org/

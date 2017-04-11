@@ -43,6 +43,7 @@ http://code.qt.io/qt/qt5.git -> https://code.qt.io/qt/qt5.git
 http://forge.imag.fr/anonscm/git/ocl-icd/ocl-icd.git -> https://forge.imag.fr/anonscm/git/ocl-icd/ocl-icd.git
 http://git.assembla.com/portaudio.git -> https://git.assembla.com/portaudio.git
 http://git.code.sf.net/p/zsh/code -> https://git.code.sf.net/p/zsh/code
+http://git.decadent.org.uk/git/debian-secure-boot.git -> https://git.decadent.org.uk/git/debian-secure-boot.git
 http://git.ffmpeg.org/ffmpeg.git -> https://git.ffmpeg.org/ffmpeg.git
 http://git.gnome.org/browse/gimp -> https://git.gnome.org/browse/gimp
 http://git.hadrons.org/git/libmd.git -> https://git.hadrons.org/git/libmd.git

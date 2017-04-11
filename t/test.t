@@ -37,6 +37,12 @@ use IPC::System::Simple qw(run capture);
 my $here = "$FindBin::Bin";
 my $basedir = "$here/../";
 
+my $filter = qr/^/;
+if (@ARGV) {
+    my $r = join('|', map { quotemeta $_ } @ARGV);
+    $filter = qr{^\w+://(?:$r)/};
+}
+
 my %repos_offline = ();
 my %repos = ();
 {
@@ -47,7 +53,9 @@ my %repos = ();
         $line =~ m{^(\S+) -> (https://\S+)( OFFLINE)?$} or die;
         my ($src, $dst, $offline) = ($1, $2, $3);
         exists $repos{$src} and die;
-        $repos{$src} = $dst;
+        if ($src =~ $filter) {
+            $repos{$src} = $dst;
+        }
         if ($offline) {
             $repos_offline{$src} = 1;
             $repos_offline{$dst} = 1;
@@ -64,10 +72,14 @@ my %prefixes = ();
         $line =~ /^(\S+) -> (\S+)$/ or die;
         my ($src, $dst) = ($1, $2);
         exists $prefixes{$src} and die;
-        $prefixes{$src} = 1;
+        if ($src =~ $filter) {
+            $prefixes{$src} = 1;
+        }
         if ($dst =~ /^https:/) {
             ($src = $dst) =~ s//http:/;
-            $prefixes{$src} = 0;
+            if ($src =~ $filter) {
+                $prefixes{$src} = 0;
+            }
         }
     }
     close($file);

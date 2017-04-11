@@ -34,6 +34,7 @@ http://anongit.gentoo.org/git/proj/pax-utils.git -> https://anongit.gentoo.org/g
 http://anongit.mindrot.org/openssh.git -> https://anongit.mindrot.org/openssh.git
 http://anonscm.debian.org/git/dpkg/dpkg.git -> https://anonscm.debian.org/git/dpkg/dpkg.git
 http://bitbucket.org/pypy/numpy.git -> https://bitbucket.org/pypy/numpy.git
+http://bugs.debian.org/debbugs-source/debbugs.git/ -> https://bugs.debian.org/debbugs-source/debbugs.git/
 http://code.qt.io/qt/qt5.git -> https://code.qt.io/qt/qt5.git
 http://git.code.sf.net/p/zsh/code -> https://git.code.sf.net/p/zsh/code
 http://git.ffmpeg.org/ffmpeg.git -> https://git.ffmpeg.org/ffmpeg.git

@@ -50,14 +50,16 @@ my %repos = ();
     my $prev_line = '';
     while (defined(my $line  = <$file>)) {
         $line gt $prev_line or die;
-        $line =~ m{^(\S+) -> (https://\S+)( OFFLINE)?$} or die;
-        my ($src, $dst, $offline) = ($1, $2, $3);
+        $line =~ m{^(\S+)( OFFLINE)? -> (https://\S+)( OFFLINE)?$} or die;
+        my ($src, $src_offline, $dst, $dst_offline) = ($1, $2, $3, $4);
         exists $repos{$src} and die;
         if ($src =~ $filter) {
             $repos{$src} = $dst;
         }
-        if ($offline) {
+        if ($src_offline) {
             $repos_offline{$src} = 1;
+        };
+        if ($dst_offline) {
             $repos_offline{$dst} = 1;
         }
         $prev_line = $line;

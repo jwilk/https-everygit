@@ -39,7 +39,7 @@ my $basedir = "$here/../";
 
 my $filter = qr/^/;
 if (@ARGV) {
-    my $r = join('|', map { quotemeta $_ } @ARGV);
+    my $r = join('|', map { quotemeta } @ARGV);
     $filter = qr{^\w+://(?:$r)/};
 }
 

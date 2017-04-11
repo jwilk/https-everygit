@@ -62,6 +62,7 @@ http://git.libssh.org/projects/libssh.git -> https://git.libssh.org/projects/lib
 http://git.lxde.org/git/lxde/lxdm.git -> https://git.lxde.org/git/lxde/lxdm.git
 http://git.lysator.liu.se/nettle/nettle -> https://git.lysator.liu.se/nettle/nettle
 http://git.openstack.org/openstack/nova -> https://git.openstack.org/openstack/nova
+http://git.opensvc.com/multipath-tools/.git -> https://git.opensvc.com/multipath-tools/.git
 http://git.pwmt.org/pwmt/girara.git -> https://git.pwmt.org/pwmt/girara.git
 http://git.samba.org/samba.git -> https://git.samba.org/samba.git
 http://git.savannah.gnu.org/git/coreutils.git -> https://git.savannah.gnu.org/git/coreutils.git

@@ -108,6 +108,9 @@
 	insteadOf = git://git.openstack.org/
 	insteadOf = http://git.openstack.org/
 
+[url "https://git.opensvc.com/"]
+	insteadOf = http://git.opensvc.com/
+
 [url "https://git.pwmt.org/"]
 	insteadOf = http://git.pwmt.org/
 

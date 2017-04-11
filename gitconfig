@@ -45,6 +45,9 @@
 	insteadOf = git://code.qt.io/
 	insteadOf = http://code.qt.io/
 
+[url "https://code.wireshark.org/"]
+	insteadOf = http://code.wireshark.org/
+
 [url "https://forge.imag.fr/anonscm/git/"]
 	insteadOf = http://forge.imag.fr/anonscm/git/
 

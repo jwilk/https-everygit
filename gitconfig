@@ -102,6 +102,9 @@
 	insteadOf = git://git.openstack.org/
 	insteadOf = http://git.openstack.org/
 
+[url "https://git.pwmt.org/"]
+	insteadOf = http://git.pwmt.org/
+
 [url "https://git.samba.org/"]
 	insteadOf = git://git.samba.org/
 	insteadOf = http://git.samba.org/

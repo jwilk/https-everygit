@@ -78,4 +78,5 @@ http://gitlab.kitware.com/cmake/cmake.git -> https://gitlab.kitware.com/cmake/cm
 http://gitlab.mister-muffin.de/josch/img2pdf.git OFFLINE -> https://gitlab.mister-muffin.de/josch/img2pdf.git
 http://pagure.io/liberation-fonts.git -> https://pagure.io/liberation-fonts.git
 http://perl5.git.perl.org/perl.git -> https://perl5.git.perl.org/perl.git
+http://ruderich.org/simon/blhc/blhc.git -> https://ruderich.org/simon/blhc/blhc.git
 http://sourceware.org/git/glibc.git -> https://sourceware.org/git/glibc.git

@@ -170,6 +170,9 @@
 	insteadOf = git://perl5.git.perl.org/
 	insteadOf = http://perl5.git.perl.org/
 
+[url "https://ruderich.org/simon/"]
+	insteadOf = http://ruderich.org/simon/
+
 [url "https://sourceware.org/git/"]
 	insteadOf = git://sourceware.org/git/
 	insteadOf = http://sourceware.org/git/

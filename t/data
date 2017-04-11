@@ -27,6 +27,7 @@ git://git.sv.nongnu.org/freetype/freetype2.git -> https://git.sv.nongnu.org/git/
 git://git.videolan.org/ffmpeg.git -> https://git.videolan.org/git/ffmpeg.git
 git://git.xiph.org/ogg.git -> https://git.xiph.org/ogg.git
 git://github.com/github/hub.git -> https://github.com/github/hub.git
+git://sourceware.org/git/glibc.git -> https://sourceware.org/git/glibc.git
 http://alioth.debian.org/anonscm/git/dpkg/dpkg.git -> https://alioth.debian.org/anonscm/git/dpkg/dpkg.git
 http://anongit.freedesktop.org/git/xdg/shared-mime-info.git -> https://anongit.freedesktop.org/git/xdg/shared-mime-info.git
 http://anongit.gentoo.org/git/proj/pax-utils.git -> https://anongit.gentoo.org/git/proj/pax-utils.git
@@ -50,3 +51,4 @@ http://git.sv.nongnu.org/git/freetype/freetype2.git -> https://git.sv.nongnu.org
 http://git.videolan.org/git/ffmpeg.git -> https://git.videolan.org/git/ffmpeg.git
 http://git.xiph.org/ogg.git -> https://git.xiph.org/ogg.git
 http://github.com/github/hub.git -> https://github.com/github/hub.git
+http://sourceware.org/git/glibc.git -> https://sourceware.org/git/glibc.git

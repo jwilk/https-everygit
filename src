@@ -31,6 +31,7 @@ git://git.sv.nongnu.org/ -> https://git.sv.nongnu.org/git/
 git://git.tartarus.org/ -> https://git.tartarus.org/
 git://git.torproject.org/ -> https://git.torproject.org/
 git://git.videolan.org/ -> https://git.videolan.org/git/
+git://git.xapian.org/ -> https://git.xapian.org/
 git://git.xiph.org/ -> https://git.xiph.org/
 git://github.com/ -> https://github.com/
 git://sourceware.org/git/ -> https://sourceware.org/git/

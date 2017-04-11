@@ -140,6 +140,10 @@
 	insteadOf = git://git.videolan.org/
 	insteadOf = http://git.videolan.org/git/
 
+[url "https://git.xapian.org/"]
+	insteadOf = git://git.xapian.org/
+	insteadOf = http://git.xapian.org/
+
 [url "https://git.xiph.org/"]
 	insteadOf = git://git.xiph.org/
 	insteadOf = http://git.xiph.org/

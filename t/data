@@ -18,8 +18,8 @@ git://git.hadrons.org/git/libmd.git -> https://git.hadrons.org/git/libmd.git
 git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git -> https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
 git://git.launchpad.net/postfix -> https://git.launchpad.net/postfix
 git://git.libssh.org/projects/libssh.git -> https://git.libssh.org/projects/libssh.git
-git://git.lxde.org/git/lxde/lxdm.git -> https://git.lxde.org/git/lxde/lxdm.git OFFLINE
-git://git.lxde.org/lxde/lxdm.git -> https://git.lxde.org/git/lxde/lxdm.git OFFLINE
+git://git.lxde.org/git/lxde/lxdm.git -> https://git.lxde.org/git/lxde/lxdm.git
+git://git.lxde.org/lxde/lxdm.git -> https://git.lxde.org/git/lxde/lxdm.git
 git://git.openstack.org/openstack/nova -> https://git.openstack.org/openstack/nova
 git://git.samba.org/samba.git -> https://git.samba.org/samba.git
 git://git.savannah.gnu.org/coreutils.git -> https://git.savannah.gnu.org/git/coreutils.git
@@ -53,7 +53,7 @@ http://git.hadrons.org/git/libmd.git -> https://git.hadrons.org/git/libmd.git
 http://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git -> https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
 http://git.launchpad.net/postfix -> https://git.launchpad.net/postfix
 http://git.libssh.org/projects/libssh.git -> https://git.libssh.org/projects/libssh.git
-http://git.lxde.org/git/lxde/lxdm.git -> https://git.lxde.org/git/lxde/lxdm.git OFFLINE
+http://git.lxde.org/git/lxde/lxdm.git -> https://git.lxde.org/git/lxde/lxdm.git
 http://git.lysator.liu.se/nettle/nettle -> https://git.lysator.liu.se/nettle/nettle
 http://git.openstack.org/openstack/nova -> https://git.openstack.org/openstack/nova
 http://git.pwmt.org/pwmt/girara.git -> https://git.pwmt.org/pwmt/girara.git

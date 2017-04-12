@@ -16,6 +16,7 @@ git://git.code.sf.net/p/zsh/code -> https://git.code.sf.net/p/zsh/code
 git://git.debian.org/dpkg/dpkg.git -> https://anonscm.debian.org/git/dpkg/dpkg.git
 git://git.debian.org/git/dpkg/dpkg.git -> https://anonscm.debian.org/git/dpkg/dpkg.git
 git://git.ffmpeg.org/ffmpeg.git -> https://git.ffmpeg.org/ffmpeg.git
+git://git.ghostscript.com/ghostpdl.git -> https://git.ghostscript.com/ghostpdl.git
 git://git.gnome.org/gimp -> https://git.gnome.org/browse/gimp
 git://git.hadrons.org/git/libmd.git -> https://git.hadrons.org/git/libmd.git
 git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git -> https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
@@ -57,6 +58,7 @@ http://git.code.sf.net/p/zsh/code -> https://git.code.sf.net/p/zsh/code
 http://git.decadent.org.uk/git/debian-secure-boot.git -> https://git.decadent.org.uk/git/debian-secure-boot.git
 http://git.einval.com/git/jigit.git -> https://git.einval.com/git/jigit.git
 http://git.ffmpeg.org/ffmpeg.git -> https://git.ffmpeg.org/ffmpeg.git
+http://git.ghostscript.com/ghostpdl.git -> https://git.ghostscript.com/ghostpdl.git
 http://git.gnome.org/browse/gimp -> https://git.gnome.org/browse/gimp
 http://git.guilhem.org/lacme -> https://git.guilhem.org/lacme
 http://git.hadrons.org/git/libmd.git -> https://git.hadrons.org/git/libmd.git

@@ -9,6 +9,7 @@ git://anonscm.debian.org/dpkg/dpkg.git -> https://anonscm.debian.org/git/dpkg/dp
 git://anonscm.debian.org/git/dpkg/dpkg.git -> https://anonscm.debian.org/git/dpkg/dpkg.git
 git://blitiri.com.ar/libfiu -> https://blitiri.com.ar/repos/libfiu
 git://code.qt.io/qt/qt5.git -> https://code.qt.io/qt/qt5.git
+git://fedorapeople.org/home/fedora/jolsa/public_git/latrace.git -> https://fedorapeople.org/cgit/jolsa/public_git/latrace.git
 git://git.assembla.com/portaudio.git -> https://git.assembla.com/portaudio.git
 git://git.code.sf.net/p/zsh/code -> https://git.code.sf.net/p/zsh/code
 git://git.debian.org/dpkg/dpkg.git -> https://anonscm.debian.org/git/dpkg/dpkg.git
@@ -47,6 +48,7 @@ http://bugs.debian.org/debbugs-source/debbugs.git/ -> https://bugs.debian.org/de
 http://chromium.googlesource.com/webm/libwebp -> https://chromium.googlesource.com/webm/libwebp
 http://code.qt.io/qt/qt5.git -> https://code.qt.io/qt/qt5.git
 http://code.wireshark.org/review/wireshark OFFLINE -> https://code.wireshark.org/review/wireshark
+http://fedorapeople.org/cgit/jolsa/public_git/latrace.git -> https://fedorapeople.org/cgit/jolsa/public_git/latrace.git
 http://forge.imag.fr/anonscm/git/ocl-icd/ocl-icd.git -> https://forge.imag.fr/anonscm/git/ocl-icd/ocl-icd.git
 http://git.assembla.com/portaudio.git -> https://git.assembla.com/portaudio.git
 http://git.code.sf.net/p/zsh/code -> https://git.code.sf.net/p/zsh/code

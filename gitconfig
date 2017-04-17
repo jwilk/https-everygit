@@ -59,6 +59,9 @@
 [url "https://forge.imag.fr/anonscm/git/"]
 	insteadOf = http://forge.imag.fr/anonscm/git/
 
+[url "https://git-wip-us.apache.org/"]
+	insteadOf = http://git-wip-us.apache.org/
+
 [url "https://git.apache.org/"]
 	insteadOf = git://git.apache.org/
 	insteadOf = http://git.apache.org/

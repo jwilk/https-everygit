@@ -1,0 +1,7 @@
+[rules]
+http://git-wip-us.apache.org/ = https://git-wip-us.apache.org/
+
+[tests]
+http://git-wip-us.apache.org/repos/asf/maven.git = https://git-wip-us.apache.org/repos/asf/maven.git
+
+# vim:ft=dosini

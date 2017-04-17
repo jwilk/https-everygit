@@ -1,0 +1,8 @@
+[rules]
+git://git.sv.gnu.org/ = https://git.sv.gnu.org/git/
+
+[tests]
+git://git.sv.gnu.org/coreutils.git = https://git.sv.gnu.org/git/coreutils.git
+http://git.sv.gnu.org/git/coreutils.git = https://git.sv.gnu.org/git/coreutils.git
+
+# vim:ft=dosini

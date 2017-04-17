@@ -1,0 +1,8 @@
+[rules]
+git://git.hadrons.org/ = https://git.hadrons.org/
+
+[tests]
+git://git.hadrons.org/git/libmd.git = https://git.hadrons.org/git/libmd.git
+http://git.hadrons.org/git/libmd.git = https://git.hadrons.org/git/libmd.git
+
+# vim:ft=dosini

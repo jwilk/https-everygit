@@ -1,0 +1,7 @@
+[rules]
+http://code.wireshark.org/ = https://code.wireshark.org/
+
+[tests]
+http://code.wireshark.org/review/wireshark OFFLINE = https://code.wireshark.org/review/wireshark
+
+# vim:ft=dosini

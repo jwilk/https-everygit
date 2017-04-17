@@ -1,0 +1,7 @@
+[rules]
+http://gitlab.mister-muffin.de/ = https://gitlab.mister-muffin.de/
+
+[tests]
+http://gitlab.mister-muffin.de/josch/img2pdf.git OFFLINE = https://gitlab.mister-muffin.de/josch/img2pdf.git
+
+# vim:ft=dosini

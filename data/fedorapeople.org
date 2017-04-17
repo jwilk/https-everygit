@@ -1,0 +1,8 @@
+[rules]
+git://fedorapeople.org/home/fedora/ = https://fedorapeople.org/cgit/
+
+[tests]
+git://fedorapeople.org/home/fedora/jolsa/public_git/latrace.git = https://fedorapeople.org/cgit/jolsa/public_git/latrace.git
+http://fedorapeople.org/cgit/jolsa/public_git/latrace.git = https://fedorapeople.org/cgit/jolsa/public_git/latrace.git
+
+# vim:ft=dosini

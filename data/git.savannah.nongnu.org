@@ -1,0 +1,8 @@
+[rules]
+git://git.savannah.nongnu.org/ = https://git.savannah.nongnu.org/git/
+
+[tests]
+git://git.savannah.nongnu.org/freetype/freetype2.git = https://git.savannah.nongnu.org/git/freetype/freetype2.git
+http://git.savannah.nongnu.org/git/freetype/freetype2.git = https://git.savannah.nongnu.org/git/freetype/freetype2.git
+
+# vim:ft=dosini

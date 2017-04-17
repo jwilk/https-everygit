@@ -1,0 +1,8 @@
+[rules]
+git://anongit.gentoo.org/ = https://anongit.gentoo.org/git/
+
+[tests]
+git://anongit.gentoo.org/proj/pax-utils.git = https://anongit.gentoo.org/git/proj/pax-utils.git
+http://anongit.gentoo.org/git/proj/pax-utils.git = https://anongit.gentoo.org/git/proj/pax-utils.git
+
+# vim:ft=dosini

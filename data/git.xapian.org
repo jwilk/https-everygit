@@ -1,0 +1,8 @@
+[rules]
+git://git.xapian.org/ = https://git.xapian.org/
+
+[tests]
+git://git.xapian.org/xapian = https://git.xapian.org/xapian
+http://git.xapian.org/xapian = https://git.xapian.org/xapian
+
+# vim:ft=dosini

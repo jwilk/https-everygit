@@ -1,0 +1,8 @@
+[rules]
+git://sourceware.org/git/ = https://sourceware.org/git/
+
+[tests]
+git://sourceware.org/git/glibc.git = https://sourceware.org/git/glibc.git
+http://sourceware.org/git/glibc.git = https://sourceware.org/git/glibc.git
+
+# vim:ft=dosini

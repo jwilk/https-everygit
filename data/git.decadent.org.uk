@@ -1,0 +1,7 @@
+[rules]
+http://git.decadent.org.uk/git/ = https://git.decadent.org.uk/git/
+
+[tests]
+http://git.decadent.org.uk/git/debian-secure-boot.git = https://git.decadent.org.uk/git/debian-secure-boot.git
+
+# vim:ft=dosini

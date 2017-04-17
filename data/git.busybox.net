@@ -1,0 +1,8 @@
+[rules]
+git://git.busybox.net/ = https://git.busybox.net/
+
+[tests]
+git://git.busybox.net/busybox = https://git.busybox.net/busybox
+http://git.busybox.net/busybox = https://git.busybox.net/busybox
+
+# vim:ft=dosini

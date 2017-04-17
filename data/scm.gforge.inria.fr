@@ -1,0 +1,7 @@
+[rules]
+http://scm.gforge.inria.fr/anonscm/git/ = https://scm.gforge.inria.fr/anonscm/git/
+
+[tests]
+http://scm.gforge.inria.fr/anonscm/git/dose/dose.git OFFLINE = https://scm.gforge.inria.fr/anonscm/git/dose/dose.git
+
+# vim:ft=dosini

@@ -1,0 +1,7 @@
+[rules]
+http://www.cl.cam.ac.uk/~mgk25/git/ = https://www.cl.cam.ac.uk/~mgk25/git/
+
+[tests]
+http://www.cl.cam.ac.uk/~mgk25/git/jbigkit = https://www.cl.cam.ac.uk/~mgk25/git/jbigkit
+
+# vim:ft=dosini

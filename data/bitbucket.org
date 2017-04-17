@@ -1,0 +1,7 @@
+[rules]
+http://bitbucket.org/ = https://bitbucket.org/
+
+[tests]
+http://bitbucket.org/pypy/numpy.git = https://bitbucket.org/pypy/numpy.git
+
+# vim:ft=dosini

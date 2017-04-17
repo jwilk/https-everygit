@@ -1,0 +1,8 @@
+[rules]
+git://git.openstack.org/ = https://git.openstack.org/
+
+[tests]
+git://git.openstack.org/openstack/nova = https://git.openstack.org/openstack/nova
+http://git.openstack.org/openstack/nova = https://git.openstack.org/openstack/nova
+
+# vim:ft=dosini

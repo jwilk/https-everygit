@@ -1,0 +1,7 @@
+[rules]
+http://bugs.debian.org/ = https://bugs.debian.org/
+
+[tests]
+http://bugs.debian.org/debbugs-source/debbugs.git/ = https://bugs.debian.org/debbugs-source/debbugs.git/
+
+# vim:ft=dosini

@@ -23,18 +23,37 @@
 use strict;
 use warnings;
 
+use English qw(-no_match_vars);
+use FindBin ();
+use autodie qw(open close);
+
+if (not @ARGV) {
+    print { *STDERR } "Usage: $PROGRAM_NAME <data-file>...\n";
+    exit 1;
+}
+
 my %insteadof;
 
-print "# Automatically generated from the data file.\n";
+print "# Automatically generated from the data files.\n";
 print "# Do not edit directly.\n\n";
 
-while (defined(my $line = <ARGV>)) {
-    $line =~ m{^(?!https:)(\S+/) -> (https://\S+/)$} or die;
-    my $src = $1;
-    my $dst = $2;
-    $insteadof{$dst}{$src} = 1;
-    ($src = $dst) =~ s/^https:/http:/ or die;
-    $insteadof{$dst}{$src} = 1;
+for my $path (@ARGV)
+{
+    my $config;
+    open(my $fh, '<', $path);
+    {
+        local $INPUT_RECORD_SEPARATOR = undef;
+        $config = <$fh>;
+    }
+    close($fh);
+    $config =~ m/(?<=^\[rules\]\n)(((?!\[).*\n)+)/m or die;
+    $config = $1;
+    while ($config =~ m/^([^#]\S*)\s*=\s*(\S+)\s*$/mg) {
+        my ($src, $dst) = ($1, $2);
+        $insteadof{$dst}{$src} = 1;
+        ($src = $dst) =~ s/^https:/http:/ or die;
+        $insteadof{$dst}{$src} = 1;
+    }
 }
 for my $dst (sort keys %insteadof)
 {

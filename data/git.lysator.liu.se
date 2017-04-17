@@ -1,0 +1,7 @@
+[rules]
+http://git.lysator.liu.se/ = https://git.lysator.liu.se/
+
+[tests]
+http://git.lysator.liu.se/nettle/nettle = https://git.lysator.liu.se/nettle/nettle
+
+# vim:ft=dosini

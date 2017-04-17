@@ -1,0 +1,10 @@
+[rules]
+git://alioth.debian.org/ = https://alioth.debian.org/anonscm/git/
+git://alioth.debian.org/git/ = https://alioth.debian.org/anonscm/git/
+
+[tests]
+git://alioth.debian.org/dpkg/dpkg.git = https://alioth.debian.org/anonscm/git/dpkg/dpkg.git
+git://alioth.debian.org/git/dpkg/dpkg.git = https://alioth.debian.org/anonscm/git/dpkg/dpkg.git
+http://alioth.debian.org/anonscm/git/dpkg/dpkg.git = https://alioth.debian.org/anonscm/git/dpkg/dpkg.git
+
+# vim:ft=dosini

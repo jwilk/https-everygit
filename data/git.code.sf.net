@@ -1,0 +1,8 @@
+[rules]
+git://git.code.sf.net/ = https://git.code.sf.net/
+
+[tests]
+git://git.code.sf.net/p/zsh/code = https://git.code.sf.net/p/zsh/code
+http://git.code.sf.net/p/zsh/code = https://git.code.sf.net/p/zsh/code
+
+# vim:ft=dosini

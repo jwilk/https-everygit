@@ -1,0 +1,8 @@
+[rules]
+git://git.tartarus.org/ = https://git.tartarus.org/
+
+[tests]
+git://git.tartarus.org/simon/agedu.git = https://git.tartarus.org/simon/agedu.git
+http://git.tartarus.org/simon/agedu.git = https://git.tartarus.org/simon/agedu.git
+
+# vim:ft=dosini

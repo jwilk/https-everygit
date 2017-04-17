@@ -1,0 +1,7 @@
+[rules]
+http://git.pwmt.org/ = https://git.pwmt.org/
+
+[tests]
+http://git.pwmt.org/pwmt/girara.git = https://git.pwmt.org/pwmt/girara.git
+
+# vim:ft=dosini

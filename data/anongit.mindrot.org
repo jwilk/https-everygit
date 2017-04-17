@@ -1,0 +1,8 @@
+[rules]
+git://anongit.mindrot.org/ = https://anongit.mindrot.org/
+
+[tests]
+git://anongit.mindrot.org/openssh.git = https://anongit.mindrot.org/openssh.git
+http://anongit.mindrot.org/openssh.git = https://anongit.mindrot.org/openssh.git
+
+# vim:ft=dosini

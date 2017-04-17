@@ -1,0 +1,8 @@
+[rules]
+git://git.savannah.gnu.org/ = https://git.savannah.gnu.org/git/
+
+[tests]
+git://git.savannah.gnu.org/coreutils.git = https://git.savannah.gnu.org/git/coreutils.git
+http://git.savannah.gnu.org/git/coreutils.git = https://git.savannah.gnu.org/git/coreutils.git
+
+# vim:ft=dosini

@@ -10,15 +10,15 @@ verbose = %f:%l: [%p] %m\n
 [-ErrorHandling::RequireCarping]
 # "die" is good enough
 
-[InputOutput::RequireBriefOpen]
-lines = 20
+[-InputOutput::RequireBriefOpen]
+# onerous; no clear benefits for our use cases
 
 [InputOutput::RequireCheckedSyscalls]
 functions = :builtins
 exclude_functions = print
 
 [Modules::ProhibitExcessMainComplexity]
-max_mccabe = 30
+max_mccabe = 40
 
 [-Modules::RequireVersionVar]
 # we don't have any public modules

@@ -1,0 +1,8 @@
+[rules]
+git://git.ffmpeg.org/ = https://git.ffmpeg.org/
+
+[tests]
+git://git.ffmpeg.org/ffmpeg.git = https://git.ffmpeg.org/ffmpeg.git
+http://git.ffmpeg.org/ffmpeg.git = https://git.ffmpeg.org/ffmpeg.git
+
+# vim:ft=dosini

@@ -1,0 +1,7 @@
+[rules]
+http://git.guilhem.org/ = https://git.guilhem.org/
+
+[tests]
+http://git.guilhem.org/lacme = https://git.guilhem.org/lacme
+
+# vim:ft=dosini

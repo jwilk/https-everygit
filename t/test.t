@@ -45,44 +45,85 @@ if (@ARGV) {
 
 my %repos_offline = ();
 my %repos = ();
-{
-    open(my $file, '<', "$here/data");
-    my $prev_line = '';
-    while (defined(my $line  = <$file>)) {
-        $line gt $prev_line or die;
-        $line =~ m{^(\S+)( OFFLINE)? -> (https://\S+)( OFFLINE)?$} or die;
-        my ($src, $src_offline, $dst, $dst_offline) = ($1, $2, $3, $4);
-        exists $repos{$src} and die;
-        if ($src =~ $filter) {
-            $repos{$src} = $dst;
-        }
-        if ($src_offline) {
-            $repos_offline{$src} = 1;
-        };
-        if ($dst_offline) {
-            $repos_offline{$dst} = 1;
-        }
-        $prev_line = $line;
-    }
-    close($file);
-}
-
 my %prefixes = ();
-{
-    open(my $file, '<', "$basedir/data");
-    while (defined(my $line  = <$file>)) {
-        $line =~ m{^(?!https:)(\S+/) -> (https://\S+/)$} or die;
-        my ($src, $dst) = ($1, $2);
-        exists $prefixes{$src} and die;
-        if ($src =~ $filter) {
-            $prefixes{$src} = 1;
+
+my @data_files = glob("$basedir/data/*");
+for my $path (@data_files) {
+    my $section = '';
+    my $prev_line = '';
+    open(my $fh, '<', $path);
+    while (defined(my $line = <$fh>)) {
+        chomp $line;
+        if ($line =~ /^(?:#|\s*$)/) {
+            next;
         }
-        ($src = $dst) =~ s/^https:/http:/ or die;
-        if ($src =~ $filter) {
-            $prefixes{$src} = 0;
+        if ($line =~ /^\Q[rules]\E$/) {
+            if ($section eq '') {
+                $section = 'rules';
+                $prev_line = '';
+                next;
+            } else {
+                die "$path:$NR: unexpected section [rules]";
+            }
         }
+        if ($line =~ /^\Q[tests]\E$/) {
+            if ($section eq 'rules') {
+                $section = 'tests';
+                $prev_line = '';
+                next;
+            } else {
+                die "$path:$NR: unexpected section [tests]";
+            }
+        }
+        if ($line =~ /^(\[.+\])$/) {
+            die "$path:$NR: unexpected section $1";
+        }
+        if ($section eq 'rules') {
+            if ($line =~ /(\S+) = (\S+)$/) {
+                if ($line le $prev_line) {
+                   die "$path:$NR: unsorted lines";
+                }
+                $prev_line = $line;
+                my ($src, $dst) = ($1, $2);
+                if (exists $prefixes{$src}) {
+                   die "$path:$NR: duplicate $src";
+                };
+                if ($src =~ $filter) {
+                    $prefixes{$src} = 1;
+                }
+                ($src = $dst) =~ s/^https:/http:/ or die "$path:$NR: target URL is not HTTPS";
+                if ($src =~ $filter) {
+                    $prefixes{$src} = 0;
+                }
+                next;
+            }
+        }
+        if ($section eq 'tests') {
+            if ($line =~ m/^(\S+)( OFFLINE)? = (\S+)( OFFLINE)?$/) {
+                if ($line le $prev_line) {
+                   die "$path:$NR: unsorted lines";
+                }
+                $prev_line = $line;
+                my ($src, $src_offline, $dst, $dst_offline) = ($1, $2, $3, $4);
+                $dst =~ m{https://} or die "$dst is not HTTPS";
+                if (exists $repos{$src}) {
+                    die "$path:$NR: duplicate $src";
+                }
+                if ($src =~ $filter) {
+                    $repos{$src} = $dst;
+                }
+                if ($src_offline) {
+                    $repos_offline{$src} = 1;
+                };
+                if ($dst_offline) {
+                    $repos_offline{$dst} = 1;
+                }
+                next;
+            }
+        }
+        die "$path:$NR: syntax error";
     }
-    close($file);
+    close($fh);
 }
 
 plan tests => 2 * (keys %repos) + 1 * (keys %prefixes);

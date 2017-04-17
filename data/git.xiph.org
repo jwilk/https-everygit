@@ -1,0 +1,8 @@
+[rules]
+git://git.xiph.org/ = https://git.xiph.org/
+
+[tests]
+git://git.xiph.org/ogg.git = https://git.xiph.org/ogg.git
+http://git.xiph.org/ogg.git = https://git.xiph.org/ogg.git
+
+# vim:ft=dosini

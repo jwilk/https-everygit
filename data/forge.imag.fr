@@ -1,0 +1,7 @@
+[rules]
+http://forge.imag.fr/anonscm/git/ = https://forge.imag.fr/anonscm/git/
+
+[tests]
+http://forge.imag.fr/anonscm/git/ocl-icd/ocl-icd.git = https://forge.imag.fr/anonscm/git/ocl-icd/ocl-icd.git
+
+# vim:ft=dosini

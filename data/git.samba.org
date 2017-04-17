@@ -1,0 +1,8 @@
+[rules]
+git://git.samba.org/ = https://git.samba.org/
+
+[tests]
+git://git.samba.org/samba.git = https://git.samba.org/samba.git
+http://git.samba.org/samba.git = https://git.samba.org/samba.git
+
+# vim:ft=dosini

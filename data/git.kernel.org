@@ -1,0 +1,8 @@
+[rules]
+git://git.kernel.org/ = https://git.kernel.org/
+
+[tests]
+git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git = https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+http://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git = https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+
+# vim:ft=dosini

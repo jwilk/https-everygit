@@ -1,0 +1,8 @@
+[rules]
+git://git.videolan.org/ = https://git.videolan.org/git/
+
+[tests]
+git://git.videolan.org/ffmpeg.git = https://git.videolan.org/git/ffmpeg.git
+http://git.videolan.org/git/ffmpeg.git = https://git.videolan.org/git/ffmpeg.git
+
+# vim:ft=dosini

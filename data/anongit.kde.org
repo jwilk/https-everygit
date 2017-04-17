@@ -1,0 +1,8 @@
+[rules]
+git://anongit.kde.org/ = https://anongit.kde.org/
+
+[tests]
+git://anongit.kde.org/konsole.git = https://anongit.kde.org/konsole.git
+http://anongit.kde.org/konsole.git = https://anongit.kde.org/konsole.git
+
+# vim:ft=dosini

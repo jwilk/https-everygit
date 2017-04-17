@@ -1,0 +1,8 @@
+[rules]
+git://git.torproject.org/ = https://git.torproject.org/
+
+[tests]
+git://git.torproject.org/tor.git OFFLINE = https://git.torproject.org/tor.git
+http://git.torproject.org/tor.git = https://git.torproject.org/tor.git
+
+# vim:ft=dosini

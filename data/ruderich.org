@@ -1,0 +1,7 @@
+[rules]
+http://ruderich.org/simon/ = https://ruderich.org/simon/
+
+[tests]
+http://ruderich.org/simon/blhc/blhc.git = https://ruderich.org/simon/blhc/blhc.git
+
+# vim:ft=dosini

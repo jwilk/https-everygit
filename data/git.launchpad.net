@@ -1,0 +1,8 @@
+[rules]
+git://git.launchpad.net/ = https://git.launchpad.net/
+
+[tests]
+git://git.launchpad.net/postfix = https://git.launchpad.net/postfix
+http://git.launchpad.net/postfix = https://git.launchpad.net/postfix
+
+# vim:ft=dosini

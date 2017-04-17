@@ -103,6 +103,10 @@
 	insteadOf = git://git.hadrons.org/
 	insteadOf = http://git.hadrons.org/
 
+[url "https://git.ipxe.org/"]
+	insteadOf = git://git.ipxe.org/
+	insteadOf = http://git.ipxe.org/
+
 [url "https://git.kernel.org/"]
 	insteadOf = git://git.kernel.org/
 	insteadOf = http://git.kernel.org/

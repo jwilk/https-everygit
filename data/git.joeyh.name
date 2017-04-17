@@ -1,0 +1,8 @@
+[rules]
+git://git.joeyh.name/ = https://git.joeyh.name/git/
+
+[tests]
+git://git.joeyh.name/ikiwiki.git = https://git.joeyh.name/git/ikiwiki.git
+http://git.joeyh.name/git/ikiwiki.git = https://git.joeyh.name/git/ikiwiki.git
+
+# vim:ft=gitconfig

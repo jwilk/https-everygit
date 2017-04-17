@@ -1,0 +1,8 @@
+[rules]
+git://git.webkit.org/ = https://git.webkit.org/git/
+
+[tests]
+git://git.webkit.org/WebKit.git = https://git.webkit.org/git/WebKit.git
+http://git.webkit.org/git/WebKit.git OFFLINE = https://git.webkit.org/git/WebKit.git
+
+# vim:ft=gitconfig

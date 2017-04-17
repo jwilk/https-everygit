@@ -183,7 +183,10 @@ SKIP: {
 
 }
 
-symlink("$basedir/gitconfig", "$tmpdir/.gitconfig");
+symlink(
+    File::Spec->rel2abs("$basedir/gitconfig"),
+    "$tmpdir/.gitconfig"
+);
 
 while (my ($src, $dst) = each %repos)
 {

@@ -34,8 +34,9 @@ use Test::More;
 
 use IPC::System::Simple qw(run capture);
 
-my $here = "$FindBin::Bin";
-my $basedir = "$here/../";
+my $basedir = "$FindBin::Bin/..";
+$basedir = Cwd::realpath($basedir);
+$basedir = File::Spec->abs2rel($basedir);
 
 my $filter = qr/^/;
 if (@ARGV) {

@@ -9,4 +9,4 @@ script:
 - make -B
 - git diff --exit-code
 - make test-online
-- private/run-perlcritic
+- devel/run-perlcritic

@@ -6,6 +6,7 @@ git://git.freedesktop.org/git/ = https://anongit.freedesktop.org/git/
 [tests]
 git://anongit.freedesktop.org/git/xdg/shared-mime-info.git = https://anongit.freedesktop.org/git/xdg/shared-mime-info.git
 git://anongit.freedesktop.org/xdg/shared-mime-info.git = https://anongit.freedesktop.org/git/xdg/shared-mime-info.git
+git://git.freedesktop.org/git/xdg/shared-mime-info.git = https://anongit.freedesktop.org/git/xdg/shared-mime-info.git
 http://anongit.freedesktop.org/git/xdg/shared-mime-info.git = https://anongit.freedesktop.org/git/xdg/shared-mime-info.git
 
 # vim:ft=dosini

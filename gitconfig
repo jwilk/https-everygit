@@ -130,6 +130,10 @@
 [url "https://git.lysator.liu.se/"]
 	insteadOf = http://git.lysator.liu.se/
 
+[url "https://git.netfilter.org/"]
+	insteadOf = git://git.netfilter.org/
+	insteadOf = http://git.netfilter.org/
+
 [url "https://git.openstack.org/"]
 	insteadOf = git://git.openstack.org/
 	insteadOf = http://git.openstack.org/

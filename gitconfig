@@ -9,7 +9,6 @@
 [url "https://anongit.freedesktop.org/git/"]
 	insteadOf = git://anongit.freedesktop.org/
 	insteadOf = git://anongit.freedesktop.org/git/
-	insteadOf = git://git.freedesktop.org/
 	insteadOf = git://git.freedesktop.org/git/
 	insteadOf = http://anongit.freedesktop.org/git/
 

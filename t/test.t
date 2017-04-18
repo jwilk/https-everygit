@@ -90,7 +90,7 @@ for my $path (@data_files) {
                    die "$path:$NR: duplicate $src";
                 };
                 if ($src =~ $filter) {
-                    $prefixes{$src} = 1;
+                    $prefixes{$src} = 0;
                 }
                 ($src = $dst) =~ s/^https:/http:/ or die "$path:$NR: target URL is not HTTPS";
                 if ($src =~ $filter) {

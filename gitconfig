@@ -191,6 +191,10 @@
 	insteadOf = git://git.xiph.org/
 	insteadOf = http://git.xiph.org/
 
+[url "https://git.zx2c4.com/"]
+	insteadOf = git://git.zx2c4.com/
+	insteadOf = http://git.zx2c4.com/
+
 [url "https://github.com/"]
 	insteadOf = git://github.com/
 	insteadOf = http://github.com/

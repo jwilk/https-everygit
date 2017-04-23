@@ -1,0 +1,7 @@
+[rules]
+http://git.weboob.org/ = https://git.weboob.org/
+
+[tests]
+http://git.weboob.org/weboob/devel.git OFFLINE = https://git.weboob.org/weboob/devel.git
+
+# vim:ft=gitconfig

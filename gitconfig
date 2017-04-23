@@ -183,6 +183,9 @@
 	insteadOf = git://git.webkit.org/
 	insteadOf = http://git.webkit.org/git/
 
+[url "https://git.weboob.org/"]
+	insteadOf = http://git.weboob.org/
+
 [url "https://git.xapian.org/"]
 	insteadOf = git://git.xapian.org/
 	insteadOf = http://git.xapian.org/

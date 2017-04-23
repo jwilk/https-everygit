@@ -5,4 +5,4 @@ git://git.openldap.org/ = https://www.openldap.org/software/repo/
 git://git.openldap.org/openldap.git = https://www.openldap.org/software/repo/openldap.git
 http://www.openldap.org/software/repo/openldap.git = https://www.openldap.org/software/repo/openldap.git
 
-# vim:ft=gitconfig
+# vim:ft=dosini

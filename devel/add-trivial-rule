@@ -61,7 +61,7 @@ EOF
 if ($src_repo ne $http_repo) {
     print { $fh } "$http_repo = $dst_repo\n";
 }
-print { $fh } "\n# vim:ft=gitconfig\n";
+print { $fh } "\n# vim:ft=dosini\n";
 close($fh) or die "$path: $ERRNO";
 
 # vim:ts=4 sts=4 sw=4 et

@@ -5,4 +5,4 @@ git://git.ipxe.org/ = https://git.ipxe.org/
 git://git.ipxe.org/ipxe.git = https://git.ipxe.org/ipxe.git
 http://git.ipxe.org/ipxe.git = https://git.ipxe.org/ipxe.git
 
-# vim:ft=gitconfig
+# vim:ft=dosini

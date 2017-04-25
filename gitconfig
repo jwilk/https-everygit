@@ -334,4 +334,8 @@
 [url "https://www.tablix.org/~avian/git/"]
 	insteadOf = http://www.tablix.org/~avian/git/
 
+[url "https://xenbits.xen.org/git-http/"]
+	insteadOf = git://xenbits.xen.org/
+	insteadOf = http://xenbits.xen.org/git-http/
+
 # vim:ft=gitconfig

@@ -1,0 +1,7 @@
+[rules]
+http://gerrit.wikimedia.org/ = https://gerrit.wikimedia.org/
+
+[tests]
+http://gerrit.wikimedia.org/r/p/mediawiki/extensions/Nuke.git = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Nuke.git
+
+# vim:ft=dosini

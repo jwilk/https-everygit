@@ -1,0 +1,7 @@
+[rules]
+http://surfer.nmr.mgh.harvard.edu/ = https://surfer.nmr.mgh.harvard.edu/
+
+[tests]
+http://surfer.nmr.mgh.harvard.edu/pub/dist/freesurfer/repo/freesurfer.git = https://surfer.nmr.mgh.harvard.edu/pub/dist/freesurfer/repo/freesurfer.git
+
+# vim:ft=dosini

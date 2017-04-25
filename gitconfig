@@ -186,6 +186,10 @@
 [url "https://git.opensvc.com/"]
 	insteadOf = http://git.opensvc.com/
 
+[url "https://git.osmocom.org/"]
+	insteadOf = git://git.osmocom.org/
+	insteadOf = http://git.osmocom.org/
+
 [url "https://git.pwmt.org/"]
 	insteadOf = http://git.pwmt.org/
 

@@ -1,0 +1,8 @@
+[rules]
+git://git.osmocom.org/ = https://git.osmocom.org/
+
+[tests]
+git://git.osmocom.org/osmo-sdr = https://git.osmocom.org/osmo-sdr
+http://git.osmocom.org/osmo-sdr = https://git.osmocom.org/osmo-sdr
+
+# vim:ft=dosini

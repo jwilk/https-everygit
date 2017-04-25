@@ -1,0 +1,8 @@
+[rules]
+git://git.blender.org/ = https://git.blender.org/
+
+[tests]
+git://git.blender.org/blender.git = https://git.blender.org/blender.git
+http://git.blender.org/blender.git = https://git.blender.org/blender.git
+
+# vim:ft=dosini

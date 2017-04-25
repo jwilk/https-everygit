@@ -262,6 +262,9 @@
 [url "https://scm.gforge.inria.fr/anonscm/git/"]
 	insteadOf = http://scm.gforge.inria.fr/anonscm/git/
 
+[url "https://skia.googlesource.com/"]
+	insteadOf = http://skia.googlesource.com/
+
 [url "https://source.winehq.org/git/"]
 	insteadOf = git://source.winehq.org/git/
 	insteadOf = http://source.winehq.org/git/

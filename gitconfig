@@ -72,6 +72,10 @@
 [url "https://gerrit.wikimedia.org/"]
 	insteadOf = http://gerrit.wikimedia.org/
 
+[url "https://gist.github.com/"]
+	insteadOf = git://gist.github.com/
+	insteadOf = http://gist.github.com/
+
 [url "https://git-wip-us.apache.org/"]
 	insteadOf = http://git-wip-us.apache.org/
 

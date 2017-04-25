@@ -10,5 +10,9 @@ install:
 script:
 - make -B
 - git diff --exit-code
+- # FIXME:
+- sed -i -r -e 's/(https:[/][/]git[.]apache[.]org[/][^ ]+)/\1 OFFLINE/' data/* # FIXME
+- sed -i -r -e 's/(https?:[/][/]git-wip-us[.]apache[.]org[/][^ ]+)/\1 OFFLINE/' data/* # FIXME
+- sed -i -r -e 's/(https?:[/][/]git[.]zx2c4[.]com[/][^ ]+)/\1 OFFLINE/' data/* # FIXME
 - make test-online
 - devel/run-perlcritic

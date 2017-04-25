@@ -245,6 +245,10 @@
 [url "https://go.googlesource.com/"]
 	insteadOf = http://go.googlesource.com/
 
+[url "https://itk.org/"]
+	insteadOf = git://itk.org/
+	insteadOf = http://itk.org/
+
 [url "https://pagure.io/"]
 	insteadOf = http://pagure.io/
 

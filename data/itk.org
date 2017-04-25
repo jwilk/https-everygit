@@ -1,0 +1,8 @@
+[rules]
+git://itk.org/ = https://itk.org/
+
+[tests]
+git://itk.org/ITK.git = https://itk.org/ITK.git
+http://itk.org/ITK.git = https://itk.org/ITK.git
+
+# vim:ft=dosini

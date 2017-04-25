@@ -242,6 +242,9 @@
 	insteadOf = git://gitorious.org/
 	insteadOf = http://gitorious.org/
 
+[url "https://go.googlesource.com/"]
+	insteadOf = http://go.googlesource.com/
+
 [url "https://pagure.io/"]
 	insteadOf = http://pagure.io/
 

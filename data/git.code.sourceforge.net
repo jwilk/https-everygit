@@ -1,0 +1,7 @@
+[rules]
+http://git.code.sourceforge.net/ = https://git.code.sourceforge.net/
+
+[tests]
+http://git.code.sourceforge.net/p/zsh/code = https://git.code.sourceforge.net/p/zsh/code
+
+# vim:ft=dosini

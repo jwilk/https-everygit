@@ -51,6 +51,11 @@
 [url "https://code.wireshark.org/"]
 	insteadOf = http://code.wireshark.org/
 
+[url "https://dev.gnupg.org/source/"]
+	insteadOf = git://git.gnupg.org/
+	insteadOf = http://dev.gnupg.org/source/
+	insteadOf = http://git.gnupg.org/
+
 [url "https://fedorapeople.org/cgit/"]
 	insteadOf = git://fedorapeople.org/home/fedora/
 	insteadOf = http://fedorapeople.org/cgit/

@@ -1,0 +1,10 @@
+[rules]
+git://git.gnupg.org/ = https://dev.gnupg.org/source/
+http://git.gnupg.org/ = https://dev.gnupg.org/source/
+
+[tests]
+git://git.gnupg.org/gnupg.git = https://dev.gnupg.org/source/gnupg.git
+http://dev.gnupg.org/source/gnupg.git = https://dev.gnupg.org/source/gnupg.git
+http://git.gnupg.org/gnupg.git OFFLINE = https://dev.gnupg.org/source/gnupg.git
+
+# vim:ft=dosini

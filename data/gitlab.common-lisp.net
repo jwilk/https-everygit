@@ -1,0 +1,7 @@
+[rules]
+http://gitlab.common-lisp.net/ = https://gitlab.common-lisp.net/
+
+[tests]
+http://gitlab.common-lisp.net/asdf/asdf.git = https://gitlab.common-lisp.net/asdf/asdf.git
+
+# vim:ft=dosini

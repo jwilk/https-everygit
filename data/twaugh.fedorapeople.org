@@ -1,0 +1,7 @@
+[rules]
+http://twaugh.fedorapeople.org/ = https://twaugh.fedorapeople.org/
+
+[tests]
+http://twaugh.fedorapeople.org/cups-avahi.git = https://twaugh.fedorapeople.org/cups-avahi.git
+
+# vim:ft=dosini

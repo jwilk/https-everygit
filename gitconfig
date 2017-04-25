@@ -292,6 +292,9 @@
 [url "https://surfer.nmr.mgh.harvard.edu/"]
 	insteadOf = http://surfer.nmr.mgh.harvard.edu/
 
+[url "https://twaugh.fedorapeople.org/"]
+	insteadOf = http://twaugh.fedorapeople.org/
+
 [url "https://www.cl.cam.ac.uk/~mgk25/git/"]
 	insteadOf = http://www.cl.cam.ac.uk/~mgk25/git/
 

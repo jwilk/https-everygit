@@ -127,6 +127,9 @@
 	insteadOf = git://git.libssh.org/
 	insteadOf = http://git.libssh.org/
 
+[url "https://git.linaro.org/"]
+	insteadOf = http://git.linaro.org/
+
 [url "https://git.lxde.org/git/"]
 	insteadOf = git://git.lxde.org/
 	insteadOf = git://git.lxde.org/git/

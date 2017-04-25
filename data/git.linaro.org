@@ -1,0 +1,7 @@
+[rules]
+http://git.linaro.org/ = https://git.linaro.org/
+
+[tests]
+http://git.linaro.org/git/lava/lava-server.git = https://git.linaro.org/git/lava/lava-server.git
+
+# vim:ft=dosini

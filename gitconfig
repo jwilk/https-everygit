@@ -88,6 +88,10 @@
 [url "https://git-wip-us.apache.org/"]
 	insteadOf = http://git-wip-us.apache.org/
 
+[url "https://git.ao2.it/"]
+	insteadOf = git://git.ao2.it/
+	insteadOf = http://git.ao2.it/
+
 [url "https://git.apache.org/"]
 	insteadOf = git://git.apache.org/
 	insteadOf = http://git.apache.org/

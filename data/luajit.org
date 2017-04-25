@@ -1,0 +1,7 @@
+[rules]
+http://luajit.org/ = https://luajit.org/
+
+[tests]
+http://luajit.org/git/luajit-2.0.git = https://luajit.org/git/luajit-2.0.git
+
+# vim:ft=dosini

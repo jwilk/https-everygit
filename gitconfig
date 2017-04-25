@@ -262,6 +262,9 @@
 	insteadOf = git://itk.org/
 	insteadOf = http://itk.org/
 
+[url "https://luajit.org/"]
+	insteadOf = http://luajit.org/
+
 [url "https://pagure.io/"]
 	insteadOf = http://pagure.io/
 

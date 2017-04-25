@@ -54,6 +54,10 @@
 [url "https://chromium.googlesource.com/"]
 	insteadOf = http://chromium.googlesource.com/
 
+[url "https://cmake.org/"]
+	insteadOf = git://cmake.org/
+	insteadOf = http://cmake.org/
+
 [url "https://code.qt.io/"]
 	insteadOf = git://code.qt.io/
 	insteadOf = http://code.qt.io/

@@ -1,0 +1,8 @@
+[rules]
+git://git.xfce.org/ = https://git.xfce.org/
+
+[tests]
+git://git.xfce.org/apps/xfce4-terminal = https://git.xfce.org/apps/xfce4-terminal
+http://git.xfce.org/apps/xfce4-terminal = https://git.xfce.org/apps/xfce4-terminal
+
+# vim:ft=dosini

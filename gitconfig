@@ -242,6 +242,10 @@
 	insteadOf = git://git.xapian.org/
 	insteadOf = http://git.xapian.org/
 
+[url "https://git.xfce.org/"]
+	insteadOf = git://git.xfce.org/
+	insteadOf = http://git.xfce.org/
+
 [url "https://git.xiph.org/"]
 	insteadOf = git://git.xiph.org/
 	insteadOf = http://git.xiph.org/

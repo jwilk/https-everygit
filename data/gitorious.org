@@ -1,0 +1,8 @@
+[rules]
+git://gitorious.org/ = https://gitorious.org/
+
+[tests]
+git://gitorious.org/gnutls/gnutls.git OFFLINE = https://gitorious.org/gnutls/gnutls.git
+http://gitorious.org/gnutls/gnutls.git = https://gitorious.org/gnutls/gnutls.git
+
+# vim:ft=dosini

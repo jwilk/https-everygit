@@ -219,6 +219,10 @@
 [url "https://gitlab.mister-muffin.de/"]
 	insteadOf = http://gitlab.mister-muffin.de/
 
+[url "https://gitorious.org/"]
+	insteadOf = git://gitorious.org/
+	insteadOf = http://gitorious.org/
+
 [url "https://pagure.io/"]
 	insteadOf = http://pagure.io/
 

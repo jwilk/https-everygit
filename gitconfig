@@ -237,7 +237,9 @@
 
 [url "https://git.videolan.org/git/"]
 	insteadOf = git://git.videolan.org/
+	insteadOf = git://source.ffmpeg.org/
 	insteadOf = http://git.videolan.org/git/
+	insteadOf = http://source.ffmpeg.org/git/
 
 [url "https://git.webkit.org/git/"]
 	insteadOf = git://git.webkit.org/

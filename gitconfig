@@ -60,6 +60,9 @@
 [url "https://common-lisp.net/"]
 	insteadOf = http://common-lisp.net/
 
+[url "https://condor-git.cs.wisc.edu/"]
+	insteadOf = http://condor-git.cs.wisc.edu/
+
 [url "https://dev.gnupg.org/source/"]
 	insteadOf = git://git.gnupg.org/
 	insteadOf = http://dev.gnupg.org/source/

@@ -57,6 +57,9 @@
 [url "https://code.wireshark.org/"]
 	insteadOf = http://code.wireshark.org/
 
+[url "https://common-lisp.net/"]
+	insteadOf = http://common-lisp.net/
+
 [url "https://dev.gnupg.org/source/"]
 	insteadOf = git://git.gnupg.org/
 	insteadOf = http://dev.gnupg.org/source/

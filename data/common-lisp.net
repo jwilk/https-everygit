@@ -1,0 +1,7 @@
+[rules]
+http://common-lisp.net/ = https://common-lisp.net/
+
+[tests]
+http://common-lisp.net/project/trivial-backtrace/trivial-backtrace.git = https://common-lisp.net/project/trivial-backtrace/trivial-backtrace.git
+
+# vim:ft=dosini

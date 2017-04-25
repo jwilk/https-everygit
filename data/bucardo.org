@@ -1,0 +1,8 @@
+[rules]
+git://bucardo.org/ = https://bucardo.org/
+
+[tests]
+git://bucardo.org/dbdpg.git = https://bucardo.org/dbdpg.git
+http://bucardo.org/dbdpg.git = https://bucardo.org/dbdpg.git
+
+# vim:ft=dosini

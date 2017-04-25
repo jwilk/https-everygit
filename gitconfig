@@ -6,6 +6,9 @@
 	insteadOf = git://alioth.debian.org/git/
 	insteadOf = http://alioth.debian.org/anonscm/git/
 
+[url "https://annex.debconf.org/"]
+	insteadOf = http://annex.debconf.org/
+
 [url "https://anongit.freedesktop.org/git/"]
 	insteadOf = git://anongit.freedesktop.org/
 	insteadOf = git://anongit.freedesktop.org/git/

@@ -1,0 +1,7 @@
+[rules]
+http://annex.debconf.org/ = https://annex.debconf.org/
+
+[tests]
+http://annex.debconf.org/debconf-share/.git/ = https://annex.debconf.org/debconf-share/.git/
+
+# vim:ft=dosini

@@ -59,6 +59,9 @@
 	insteadOf = http://dev.gnupg.org/source/
 	insteadOf = http://git.gnupg.org/
 
+[url "https://downloads.kitenet.net/"]
+	insteadOf = http://downloads.kitenet.net/
+
 [url "https://fedorapeople.org/cgit/"]
 	insteadOf = git://fedorapeople.org/home/fedora/
 	insteadOf = http://fedorapeople.org/cgit/

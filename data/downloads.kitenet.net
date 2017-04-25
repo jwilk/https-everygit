@@ -1,0 +1,7 @@
+[rules]
+http://downloads.kitenet.net/ = https://downloads.kitenet.net/
+
+[tests]
+http://downloads.kitenet.net/.git/ = https://downloads.kitenet.net/.git/
+
+# vim:ft=dosini

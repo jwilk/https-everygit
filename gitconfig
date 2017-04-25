@@ -180,6 +180,9 @@
 	insteadOf = git://git.torproject.org/
 	insteadOf = http://git.torproject.org/
 
+[url "https://git.tukaani.org/"]
+	insteadOf = http://git.tukaani.org/
+
 [url "https://git.videolan.org/git/"]
 	insteadOf = git://git.videolan.org/
 	insteadOf = http://git.videolan.org/git/

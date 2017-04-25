@@ -1,0 +1,7 @@
+[rules]
+http://git.tukaani.org/ = https://git.tukaani.org/
+
+[tests]
+http://git.tukaani.org/xz.git = https://git.tukaani.org/xz.git
+
+# vim:ft=dosini

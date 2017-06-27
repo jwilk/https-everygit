@@ -12,6 +12,8 @@ script:
 - git diff --exit-code
 - sed -i -E -e 's/(https:[/][/]git[.]apache[.]org[/][^ ]+)/\1 OFFLINE/g' data/* # FIXME
 - sed -i -E -e 's/(https?:[/][/]git-wip-us[.]apache[.]org[/][^ ]+)/\1 OFFLINE/g' data/* # FIXME
+- sed -i -E -e 's/(https?:[/][/]git[.]hadrons[.]org[/][^ ]+)/\1 OFFLINE/g' data/* # FIXME
 - sed -i -E -e 's/(https?:[/][/]git[.]zx2c4[.]com[/][^ ]+)/\1 OFFLINE/g' data/* # FIXME
+- sed -i -E -e 's/(https?:[/][/]surfer[.]nmr[.]mgh[.]harvard.edu[/][^ ]+)/\1 OFFLINE/g' data/* # FIXME
 - make test-online
 - devel/run-perlcritic

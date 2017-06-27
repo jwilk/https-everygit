@@ -175,6 +175,13 @@
 [url "https://git.linaro.org/"]
 	insteadOf = http://git.linaro.org/
 
+[url "https://git.llvm.org/"]
+	insteadOf = http://git.llvm.org/
+
+[url "https://git.llvm.org/git/"]
+	insteadOf = http://git.llvm.org/git/
+	insteadOf = http://llvm.org/git/
+
 [url "https://git.lxde.org/git/"]
 	insteadOf = git://git.lxde.org/
 	insteadOf = git://git.lxde.org/git/

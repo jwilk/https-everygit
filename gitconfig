@@ -104,6 +104,10 @@
 	insteadOf = git://git.apache.org/
 	insteadOf = http://git.apache.org/
 
+[url "https://git.archlinux.org/"]
+	insteadOf = git://git.archlinux.org/
+	insteadOf = http://git.archlinux.org/
+
 [url "https://git.assembla.com/"]
 	insteadOf = git://git.assembla.com/
 	insteadOf = http://git.assembla.com/

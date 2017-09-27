@@ -145,6 +145,10 @@
 	insteadOf = git://git.ghostscript.com/
 	insteadOf = http://git.ghostscript.com/
 
+[url "https://git.gitano.org.uk/"]
+	insteadOf = git://git.gitano.org.uk/
+	insteadOf = http://git.gitano.org.uk/
+
 [url "https://git.gnome.org/browse/"]
 	insteadOf = git://git.gnome.org/
 	insteadOf = http://git.gnome.org/browse/

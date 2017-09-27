@@ -1,0 +1,8 @@
+[rules]
+git://git.gitano.org.uk/ = https://git.gitano.org.uk/
+
+[tests]
+git://git.gitano.org.uk/personal/richardipsum/sparseutils.git = https://git.gitano.org.uk/personal/richardipsum/sparseutils.git
+http://git.gitano.org.uk/personal/richardipsum/sparseutils.git = https://git.gitano.org.uk/personal/richardipsum/sparseutils.git
+
+# vim:ft=dosini

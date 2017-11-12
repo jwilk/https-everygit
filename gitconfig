@@ -96,6 +96,10 @@
 [url "https://git-wip-us.apache.org/"]
 	insteadOf = http://git-wip-us.apache.org/
 
+[url "https://git.alpinelinux.org/cgit/"]
+	insteadOf = git://git.alpinelinux.org/
+	insteadOf = http://git.alpinelinux.org/cgit/
+
 [url "https://git.ao2.it/"]
 	insteadOf = git://git.ao2.it/
 	insteadOf = http://git.ao2.it/

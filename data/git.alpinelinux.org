@@ -1,0 +1,8 @@
+[rules]
+git://git.alpinelinux.org/ = https://git.alpinelinux.org/cgit/
+
+[tests]
+git://git.alpinelinux.org/aports = https://git.alpinelinux.org/cgit/aports
+http://git.alpinelinux.org/cgit/aports = https://git.alpinelinux.org/cgit/aports
+
+# vim:ft=dosini

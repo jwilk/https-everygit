@@ -41,10 +41,6 @@
 	insteadOf = git://blitiri.com.ar/
 	insteadOf = http://blitiri.com.ar/repos/
 
-[url "https://bucardo.org/"]
-	insteadOf = git://bucardo.org/
-	insteadOf = http://bucardo.org/
-
 [url "https://bugs.debian.org/"]
 	insteadOf = http://bugs.debian.org/
 

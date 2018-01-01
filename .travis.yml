@@ -15,5 +15,5 @@ script:
 - sed -i -E -e 's/(https?:[/][/]git[.]hadrons[.]org[/][^ ]+)/\1 OFFLINE/g' data/* # FIXME
 - sed -i -E -e 's/(https?:[/][/]git[.]zx2c4[.]com[/][^ ]+)/\1 OFFLINE/g' data/* # FIXME
 - sed -i -E -e 's/(https?:[/][/]surfer[.]nmr[.]mgh[.]harvard.edu[/][^ ]+)/\1 OFFLINE/g' data/* # FIXME
-- make test-online
+- make test online=1
 - devel/run-perlcritic

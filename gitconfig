@@ -124,6 +124,9 @@
 	insteadOf = git://git.busybox.net/
 	insteadOf = http://git.busybox.net/
 
+[url "https://git.cgsecurity.org/"]
+	insteadOf = http://git.cgsecurity.org/
+
 [url "https://git.code.sf.net/"]
 	insteadOf = git://git.code.sf.net/
 	insteadOf = http://git.code.sf.net/

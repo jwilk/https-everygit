@@ -1,0 +1,7 @@
+[rules]
+http://git.cgsecurity.org/ = https://git.cgsecurity.org/
+
+[tests]
+http://git.cgsecurity.org/testdisk.git = https://git.cgsecurity.org/testdisk.git
+
+# vim:ft=dosini

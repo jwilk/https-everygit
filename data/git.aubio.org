@@ -2,7 +2,7 @@
 git://git.aubio.org/ = https://git.aubio.org/
 
 [tests]
-git://git.aubio.org/git/aubio/ = https://git.aubio.org/git/aubio/
+git://git.aubio.org/git/aubio/ OFFLINE = https://git.aubio.org/git/aubio/
 http://git.aubio.org/git/aubio/ OFFLINE = https://git.aubio.org/git/aubio/
 
 # vim:ft=dosini

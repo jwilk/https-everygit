@@ -2,7 +2,7 @@
 git://blitiri.com.ar/ = https://blitiri.com.ar/repos/
 
 [tests]
-git://blitiri.com.ar/libfiu = https://blitiri.com.ar/repos/libfiu
+git://blitiri.com.ar/libfiu OFFLINE = https://blitiri.com.ar/repos/libfiu
 http://blitiri.com.ar/repos/libfiu = https://blitiri.com.ar/repos/libfiu
 
 # vim:ft=dosini

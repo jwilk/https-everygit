@@ -2,7 +2,7 @@
 git://source.winehq.org/git/ = https://source.winehq.org/git/
 
 [tests]
-git://source.winehq.org/git/wine.git = https://source.winehq.org/git/wine.git
-http://source.winehq.org/git/wine.git = https://source.winehq.org/git/wine.git
+git://source.winehq.org/git/website.git = https://source.winehq.org/git/website.git
+http://source.winehq.org/git/website.git = https://source.winehq.org/git/website.git
 
 # vim:ft=dosini

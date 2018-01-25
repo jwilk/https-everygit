@@ -1,0 +1,7 @@
+[rules]
+http://source.isc.org/ = https://source.isc.org/
+
+[tests]
+http://source.isc.org/git/bind9.git = https://source.isc.org/git/bind9.git
+
+# vim:ft=dosini

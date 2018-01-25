@@ -332,6 +332,9 @@
 [url "https://skia.googlesource.com/"]
 	insteadOf = http://skia.googlesource.com/
 
+[url "https://source.isc.org/"]
+	insteadOf = http://source.isc.org/
+
 [url "https://source.winehq.org/git/"]
 	insteadOf = git://source.winehq.org/git/
 	insteadOf = http://source.winehq.org/git/

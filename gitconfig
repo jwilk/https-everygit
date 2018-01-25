@@ -205,6 +205,10 @@
 	insteadOf = git://git.netfilter.org/
 	insteadOf = http://git.netfilter.org/
 
+[url "https://git.nlnetlabs.nl/"]
+	insteadOf = git://git.nlnetlabs.nl/
+	insteadOf = http://git.nlnetlabs.nl/
+
 [url "https://git.openstack.org/"]
 	insteadOf = git://git.openstack.org/
 	insteadOf = http://git.openstack.org/

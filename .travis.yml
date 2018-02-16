@@ -17,3 +17,5 @@ script:
 - sed -i -E -e 's/(https?:[/][/]surfer[.]nmr[.]mgh[.]harvard.edu[/][^ ]+)/\1 OFFLINE/g' data/* # FIXME
 - make test online=1
 - devel/run-perlcritic
+
+# vim:ts=2 sts=2 sw=2 et

@@ -247,9 +247,6 @@
 	insteadOf = git://git.tartarus.org/
 	insteadOf = http://git.tartarus.org/
 
-[url "https://git.tasktools.org/"]
-	insteadOf = http://git.tasktools.org/
-
 [url "https://git.torproject.org/"]
 	insteadOf = git://git.torproject.org/
 	insteadOf = http://git.torproject.org/

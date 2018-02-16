@@ -1,7 +1,0 @@
-[rules]
-http://git.tasktools.org/ = https://git.tasktools.org/
-
-[tests]
-http://git.tasktools.org/TM/task.git = https://git.tasktools.org/TM/task.git
-
-# vim:ft=dosini

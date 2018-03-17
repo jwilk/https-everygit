@@ -5,10 +5,10 @@ git://git.debian.org/ = https://anonscm.debian.org/git/
 git://git.debian.org/git/ = https://anonscm.debian.org/git/
 
 [tests]
-git://anonscm.debian.org/dpkg/dpkg.git = https://anonscm.debian.org/git/dpkg/dpkg.git
-git://anonscm.debian.org/git/dpkg/dpkg.git = https://anonscm.debian.org/git/dpkg/dpkg.git
-git://git.debian.org/dpkg/dpkg.git = https://anonscm.debian.org/git/dpkg/dpkg.git
-git://git.debian.org/git/dpkg/dpkg.git = https://anonscm.debian.org/git/dpkg/dpkg.git
-http://anonscm.debian.org/git/dpkg/dpkg.git = https://anonscm.debian.org/git/dpkg/dpkg.git
+git://anonscm.debian.org/d-i/debootstrap.git = https://anonscm.debian.org/git/d-i/debootstrap.git
+git://anonscm.debian.org/git/d-i/debootstrap.git = https://anonscm.debian.org/git/d-i/debootstrap.git
+git://git.debian.org/d-i/debootstrap.git = https://anonscm.debian.org/git/d-i/debootstrap.git
+git://git.debian.org/git/d-i/debootstrap.git = https://anonscm.debian.org/git/d-i/debootstrap.git
+http://anonscm.debian.org/git/d-i/debootstrap.git = https://anonscm.debian.org/git/d-i/debootstrap.git
 
 # vim:ft=dosini

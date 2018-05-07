@@ -10,6 +10,8 @@ install:
 script:
 - make -B
 - git diff --exit-code
+- sed -i -E -e '/^$/,$ { s/(https:[/][/]git[.]webkit[.]org[/][^ ]+)/\1 OFFLINE/g }' data/* # FIXME
+- sed -i -E -e '/^$/,$ { s/(https?:[/][/]alioth[.]debian[.]org[/][^ ]+)/\1 OFFLINE/g }' data/* # FIXME
 - sed -i -E -e 's/(https:[/][/]git[.]apache[.]org[/][^ ]+)/\1 OFFLINE/g' data/* # FIXME
 - sed -i -E -e 's/(https?:[/][/]git-wip-us[.]apache[.]org[/][^ ]+)/\1 OFFLINE/g' data/* # FIXME
 - sed -i -E -e 's/(https?:[/][/]git[.]hadrons[.]org[/][^ ]+)/\1 OFFLINE/g' data/* # FIXME

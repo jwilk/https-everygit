@@ -3,8 +3,8 @@ git://alioth.debian.org/ = https://alioth.debian.org/anonscm/git/
 git://alioth.debian.org/git/ = https://alioth.debian.org/anonscm/git/
 
 [tests]
-git://alioth.debian.org/anagram/anagram.git = https://alioth.debian.org/anonscm/git/anagram/anagram.git
-git://alioth.debian.org/git/anagram/anagram.git = https://alioth.debian.org/anonscm/git/anagram/anagram.git
-http://alioth.debian.org/anonscm/git/anagram/anagram.git = https://alioth.debian.org/anonscm/git/anagram/anagram.git
+git://alioth.debian.org/anagram/anagram.git OFFLINE = https://alioth.debian.org/anonscm/git/anagram/anagram.git OFFLINE
+git://alioth.debian.org/git/anagram/anagram.git OFFLINE = https://alioth.debian.org/anonscm/git/anagram/anagram.git OFFLINE
+http://alioth.debian.org/anonscm/git/anagram/anagram.git OFFLINE = https://alioth.debian.org/anonscm/git/anagram/anagram.git OFFLINE
 
 # vim:ft=dosini

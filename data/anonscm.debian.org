@@ -5,10 +5,10 @@ git://git.debian.org/ = https://anonscm.debian.org/git/
 git://git.debian.org/git/ = https://anonscm.debian.org/git/
 
 [tests]
-git://anonscm.debian.org/anagram/anagram.git = https://anonscm.debian.org/git/anagram/anagram.git
-git://anonscm.debian.org/git/anagram/anagram.git = https://anonscm.debian.org/git/anagram/anagram.git
-git://git.debian.org/anagram/anagram.git = https://anonscm.debian.org/git/anagram/anagram.git
-git://git.debian.org/git/anagram/anagram.git = https://anonscm.debian.org/git/anagram/anagram.git
-http://anonscm.debian.org/git/anagram/anagram.git = https://anonscm.debian.org/git/anagram/anagram.git
+git://anonscm.debian.org/anagram/anagram.git OFFLINE = https://anonscm.debian.org/git/anagram/anagram.git OFFLINE
+git://anonscm.debian.org/git/anagram/anagram.git OFFLINE = https://anonscm.debian.org/git/anagram/anagram.git OFFLINE
+git://git.debian.org/anagram/anagram.git OFFLINE = https://anonscm.debian.org/git/anagram/anagram.git OFFLINE
+git://git.debian.org/git/anagram/anagram.git OFFLINE = https://anonscm.debian.org/git/anagram/anagram.git OFFLINE
+http://anonscm.debian.org/git/anagram/anagram.git OFFLINE = https://anonscm.debian.org/git/anagram/anagram.git OFFLINE
 
 # vim:ft=dosini

@@ -2,6 +2,6 @@
 http://source.isc.org/ = https://source.isc.org/
 
 [tests]
-http://source.isc.org/git/bind9.git = https://source.isc.org/git/bind9.git
+http://source.isc.org/git/dhcp.git = https://source.isc.org/git/dhcp.git
 
 # vim:ft=dosini

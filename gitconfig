@@ -293,6 +293,9 @@
 [url "https://gitlab.common-lisp.net/"]
 	insteadOf = http://gitlab.common-lisp.net/
 
+[url "https://gitlab.isc.org/"]
+	insteadOf = http://gitlab.isc.org/
+
 [url "https://gitlab.kitware.com/"]
 	insteadOf = http://gitlab.kitware.com/
 

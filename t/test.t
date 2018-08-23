@@ -23,7 +23,6 @@
 use strict;
 use warnings;
 
-use Carp;
 use English qw(-no_match_vars);
 use File::Temp ();
 use FindBin ();

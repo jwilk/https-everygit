@@ -2,7 +2,7 @@
 git://git.gnome.org/ = https://git.gnome.org/browse/
 
 [tests]
-git://git.gnome.org/gimp = https://git.gnome.org/browse/gimp
+git://git.gnome.org/gimp OFFLINE = https://git.gnome.org/browse/gimp
 http://git.gnome.org/browse/gimp = https://git.gnome.org/browse/gimp
 
 # vim:ft=dosini

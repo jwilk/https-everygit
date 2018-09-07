@@ -3,7 +3,7 @@ sudo: false
 language: perl
 perl:
 - "5.8"
-- "5.26"
+- "5.28"
 install:
 - cpanm IPC::System::Simple
 - cpanm Perl::Critic

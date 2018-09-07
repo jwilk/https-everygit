@@ -2,7 +2,7 @@
 git://git.launchpad.net/ = https://git.launchpad.net/
 
 [tests]
-git://git.launchpad.net/postfix = https://git.launchpad.net/postfix
-http://git.launchpad.net/postfix = https://git.launchpad.net/postfix
+git://git.launchpad.net/ignore-me = https://git.launchpad.net/ignore-me
+http://git.launchpad.net/ignore-me = https://git.launchpad.net/ignore-me
 
 # vim:ft=dosini

@@ -2,6 +2,6 @@
 http://git.linaro.org/ = https://git.linaro.org/
 
 [tests]
-http://git.linaro.org/git/lava/lava-server.git = https://git.linaro.org/git/lava/lava-server.git
+http://git.linaro.org/git/tools/powerdebug.git = https://git.linaro.org/git/tools/powerdebug.git
 
 # vim:ft=dosini

@@ -2,7 +2,7 @@
 git://gitorious.org/ = https://gitorious.org/
 
 [tests]
-git://gitorious.org/net-libproxy/net-libproxy.git OFFLINE = https://gitorious.org/net-libproxy/net-libproxy.git
-http://gitorious.org/net-libproxy/net-libproxy.git = https://gitorious.org/net-libproxy/net-libproxy.git
+git://gitorious.org/net-libproxy/net-libproxy.git OFFLINE = https://gitorious.org/net-libproxy/net-libproxy.git OFFLINE
+http://gitorious.org/net-libproxy/net-libproxy.git OFFLINE = https://gitorious.org/net-libproxy/net-libproxy.git OFFLINE
 
 # vim:ft=dosini

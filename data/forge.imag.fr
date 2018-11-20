@@ -2,6 +2,6 @@
 http://forge.imag.fr/anonscm/git/ = https://forge.imag.fr/anonscm/git/
 
 [tests]
-http://forge.imag.fr/anonscm/git/ocl-icd/ocl-icd.git = https://forge.imag.fr/anonscm/git/ocl-icd/ocl-icd.git
+http://forge.imag.fr/anonscm/git/ocl-icd/ocl-icd.git OFFLINE = https://forge.imag.fr/anonscm/git/ocl-icd/ocl-icd.git OFFLINE
 
 # vim:ft=dosini

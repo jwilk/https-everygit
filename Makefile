@@ -1,3 +1,5 @@
+online =
+
 export LC_ALL = C
 
 ifeq "$(XDG_CONFIG_HOME)" ""

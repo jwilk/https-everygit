@@ -1,0 +1,10 @@
+[rules]
+git://git.linuxtv.org/ = https://git.linuxtv.org/
+git://linuxtv.org/ = https://git.linuxtv.org/
+
+[tests]
+git://git.linuxtv.org/xawtv3.git = https://git.linuxtv.org/xawtv3.git
+git://linuxtv.org/xawtv3.git = https://git.linuxtv.org/xawtv3.git
+http://git.linuxtv.org/xawtv3.git = https://git.linuxtv.org/xawtv3.git
+
+# vim:ft=dosini

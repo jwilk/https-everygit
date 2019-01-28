@@ -1,8 +1,10 @@
 dist: trusty
 language: perl
-perl:
-- "5.8"
-- "5.28"
+matrix:
+  include:
+  - perl: "5.8"
+  - perl: "5.28"
+    dist: xenial
 install:
 - cpanm IPC::System::Simple
 - cpanm Perl::Critic

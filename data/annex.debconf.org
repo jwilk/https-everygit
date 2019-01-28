@@ -2,6 +2,6 @@
 http://annex.debconf.org/ = https://annex.debconf.org/
 
 [tests]
-http://annex.debconf.org/debconf-share/.git/ = https://annex.debconf.org/debconf-share/.git/
+http://annex.debconf.org/debconf-share/.git/ OFFLINE = https://annex.debconf.org/debconf-share/.git/ OFFLINE
 
 # vim:ft=dosini

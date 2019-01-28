@@ -2,6 +2,6 @@
 http://git.pwmt.org/ = https://git.pwmt.org/
 
 [tests]
-http://git.pwmt.org/pwmt/girara.git = https://git.pwmt.org/pwmt/girara.git
+http://git.pwmt.org/pwmt/girara.git OFFLINE = https://git.pwmt.org/pwmt/girara.git OFFLINE
 
 # vim:ft=dosini

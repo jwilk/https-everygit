@@ -3,11 +3,14 @@ language: perl
 matrix:
   include:
   - perl: "5.8"
+    env: superficial=1
   - perl: "5.28"
     dist: xenial
 install:
 - cpanm IPC::System::Simple
 - cpanm Perl::Critic
+before_script:
+- if [[ $superficial ]]; then makeflags=only=github.com; fi
 script:
 - make -B
 - git diff --exit-code
@@ -18,7 +21,7 @@ script:
 - sed -i -E -e 's/(https?:[/][/]git[.]hadrons[.]org[/][^ ]+)/\1 OFFLINE/g' data/* # FIXME
 - sed -i -E -e 's/(https?:[/][/]git[.]zx2c4[.]com[/][^ ]+)/\1 OFFLINE/g' data/* # FIXME
 - sed -i -E -e 's/(https?:[/][/]surfer[.]nmr[.]mgh[.]harvard.edu[/][^ ]+)/\1 OFFLINE/g' data/* # FIXME
-- make test online=1
+- make test online=1 $makeflags
 - devel/run-perlcritic
 
 # vim:ts=2 sts=2 sw=2 et

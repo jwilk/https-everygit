@@ -2,7 +2,7 @@
 git://git.openstack.org/ = https://git.openstack.org/
 
 [tests]
-git://git.openstack.org/openstack/nova = https://git.openstack.org/openstack/nova
-http://git.openstack.org/openstack/nova = https://git.openstack.org/openstack/nova
+git://git.openstack.org/openstack/oaktree = https://git.openstack.org/openstack/oaktree
+http://git.openstack.org/openstack/oaktree = https://git.openstack.org/openstack/oaktree
 
 # vim:ft=dosini

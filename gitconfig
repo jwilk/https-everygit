@@ -183,6 +183,10 @@
 	insteadOf = git://git.libssh.org/
 	insteadOf = http://git.libssh.org/
 
+[url "https://git.lighttpd.net/"]
+	insteadOf = git://git.lighttpd.net/
+	insteadOf = http://git.lighttpd.net/
+
 [url "https://git.linaro.org/"]
 	insteadOf = http://git.linaro.org/
 

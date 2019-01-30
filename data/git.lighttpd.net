@@ -1,0 +1,8 @@
+[rules]
+git://git.lighttpd.net/ = https://git.lighttpd.net/
+
+[tests]
+git://git.lighttpd.net/lighttpd/lighttpd2.git = https://git.lighttpd.net/lighttpd/lighttpd2.git
+http://git.lighttpd.net/lighttpd/lighttpd2.git = https://git.lighttpd.net/lighttpd/lighttpd2.git
+
+# vim:ft=dosini

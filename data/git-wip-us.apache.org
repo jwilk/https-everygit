@@ -2,6 +2,6 @@
 http://git-wip-us.apache.org/ = https://git-wip-us.apache.org/
 
 [tests]
-http://git-wip-us.apache.org/repos/asf/ant-antlibs-common.git = https://git-wip-us.apache.org/repos/asf/ant-antlibs-common.git
+http://git-wip-us.apache.org/repos/asf/ant-antlibs-common.git OFFLINE = https://git-wip-us.apache.org/repos/asf/ant-antlibs-common.git
 
 # vim:ft=dosini

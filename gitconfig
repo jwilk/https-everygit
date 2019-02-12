@@ -58,6 +58,9 @@
 	insteadOf = git://code.qt.io/
 	insteadOf = http://code.qt.io/
 
+[url "https://code.videolan.org/"]
+	insteadOf = http://code.videolan.org/
+
 [url "https://code.wireshark.org/"]
 	insteadOf = http://code.wireshark.org/
 

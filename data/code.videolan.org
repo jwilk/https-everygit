@@ -1,0 +1,7 @@
+[rules]
+http://code.videolan.org/ = https://code.videolan.org/
+
+[tests]
+http://code.videolan.org/videolan/libdvdread.git = https://code.videolan.org/videolan/libdvdread.git
+
+# vim:ft=dosini

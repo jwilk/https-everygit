@@ -31,7 +31,7 @@ use autodie qw(open close symlink);
 
 use Test::More;
 
-use IPC::System::Simple qw(run capture);
+use IPC::System::Simple qw(capture);
 
 my $basedir = "$FindBin::Bin/..";
 $basedir = Cwd::realpath($basedir);

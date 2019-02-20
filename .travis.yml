@@ -1,6 +1,6 @@
 dist: trusty
 language: perl
-matrix:
+jobs:
   include:
   - perl: "5.8"
     env: superficial=1

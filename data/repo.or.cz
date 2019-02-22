@@ -1,0 +1,8 @@
+[rules]
+git://repo.or.cz/ = https://repo.or.cz/
+
+[tests]
+git://repo.or.cz/libtar.git = https://repo.or.cz/libtar.git
+http://repo.or.cz/libtar.git = https://repo.or.cz/libtar.git
+
+# vim:ft=dosini

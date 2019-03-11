@@ -140,6 +140,9 @@
 [url "https://git.decadent.org.uk/git/"]
 	insteadOf = http://git.decadent.org.uk/git/
 
+[url "https://git.dereenigne.org/"]
+	insteadOf = http://git.dereenigne.org/
+
 [url "https://git.einval.com/git/"]
 	insteadOf = http://git.einval.com/git/
 

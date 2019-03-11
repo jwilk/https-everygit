@@ -1,0 +1,7 @@
+[rules]
+http://git.dereenigne.org/ = https://git.dereenigne.org/
+
+[tests]
+http://git.dereenigne.org/dbrtpi.git = https://git.dereenigne.org/dbrtpi.git
+
+# vim:ft=dosini

@@ -1,0 +1,7 @@
+[rules]
+http://gitbox.apache.org/ = https://gitbox.apache.org/
+
+[tests]
+http://gitbox.apache.org/repos/asf/ant-antlibs-common.git = https://gitbox.apache.org/repos/asf/ant-antlibs-common.git
+
+# vim:ft=dosini

@@ -1,11 +1,11 @@
-dist: trusty
+dist: xenial
 language: perl
 jobs:
   include:
   - perl: "5.8"
     env: superficial=1
+    dist: trusty
   - perl: "5.28"
-    dist: xenial
 before_install:
 - export PERL_CPANM_OPT='--no-interactive --no-man-pages --notest --skip-satisfied'
 install:

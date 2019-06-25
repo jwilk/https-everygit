@@ -1,3 +1,6 @@
+# Copyright © 2017-2019 Jakub Wilk <jwilk@jwilk.net>
+# SPDX-License-Identifier: MIT
+
 export LC_ALL = C
 
 ifeq "$(XDG_CONFIG_HOME)" ""

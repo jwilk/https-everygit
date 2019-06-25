@@ -155,8 +155,7 @@ SKIP: {
         return $output;
     }
 
-    while (my ($src, $dst) = each %repos)
-    {
+    while (my ($src, $dst) = each %repos) {
         TODO: {
             my ($ls_src, $ls_dst);
             eval {
@@ -190,16 +189,14 @@ symlink(
     "$tmpdir/.gitconfig"
 );
 
-while (my ($src, $dst) = each %repos)
-{
+while (my ($src, $dst) = each %repos) {
     my $gitdst = capture('git', '-C', $tmpdir, 'ls-remote', '--get-url', $src);
     chomp($gitdst);
     cmp_ok($gitdst, 'eq', $dst, "offline $src");
 }
 
 my @prefixes = reverse sort { (length $a) - (length $b) } keys %prefixes;
-while (my ($src, $dst) = each %repos)
-{
+while (my ($src, $dst) = each %repos) {
     for my $prefix (@prefixes) {
         if ($src =~ /^\Q$prefix\E/) {
             $prefixes{$prefix} = 1;
@@ -207,8 +204,7 @@ while (my ($src, $dst) = each %repos)
     }
 }
 
-while (my ($prefix, $coverage) = each %prefixes)
-{
+while (my ($prefix, $coverage) = each %prefixes) {
     cmp_ok($coverage, '==', 1, "coverage for $prefix");
 }
 

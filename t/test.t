@@ -81,7 +81,7 @@ for my $path (@data_files) {
             die "$path:$NR: unexpected section $1";
         }
         if ($section eq 'rules') {
-            if ($line =~ /(\S+) = (\S+)$/) {
+            if ($line =~ /^(\S+) = (\S+)$/) {
                 if ($line le $prev_line) {
                    die "$path:$NR: unsorted lines";
                 }

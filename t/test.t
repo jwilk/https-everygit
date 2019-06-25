@@ -209,7 +209,7 @@ while (my ($src, $dst) = each %repos)
 
 while (my ($prefix, $coverage) = each %prefixes)
 {
-    cmp_ok($coverage, 'eq', 1, "coverage for $prefix");
+    cmp_ok($coverage, '==', 1, "coverage for $prefix");
 }
 
 # vim:ts=4 sts=4 sw=4 et

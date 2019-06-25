@@ -59,7 +59,7 @@ for my $path (@data_files) {
         if ($line =~ /^(?:#|\s*$)/) {
             next;
         }
-        if ($line =~ /^\Q[rules]\E$/) {
+        if ($line eq '[rules]') {
             if ($section eq '') {
                 $section = 'rules';
                 $prev_line = '';
@@ -68,7 +68,7 @@ for my $path (@data_files) {
                 die "$path:$NR: unexpected section [rules]";
             }
         }
-        if ($line =~ /^\Q[tests]\E$/) {
+        if ($line eq '[tests]') {
             if ($section eq 'rules') {
                 $section = 'tests';
                 $prev_line = '';

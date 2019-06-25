@@ -1,5 +1,3 @@
-online =
-
 export LC_ALL = C
 
 ifeq "$(XDG_CONFIG_HOME)" ""
@@ -21,6 +19,8 @@ install: gitconfig
 	|| git config --global --add include.path "$$XDG_CONFIG_HOME/git/config-https-everygit"
 
 .PHONY: test
+test: online =
+test: only =
 test: gitconfig
 	$(and $(online),HTTPS_EVERYGIT_ONLINE_TESTS=1) prove -v :: $(only)
 

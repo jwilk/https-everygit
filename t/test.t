@@ -130,7 +130,7 @@ for my $path (@data_files) {
 
 plan tests => 2 * (keys %repos) + 1 * (keys %prefixes);
 
-my $tmpdir = File::Temp->newdir();
+my $tmpdir = File::Temp->newdir(TEMPLATE => 'https-everygit.test.XXXXXX', TMPDIR => 1);
 
 local $ENV{GIT_CONFIG_NOSYSTEM} = '1';
 local $ENV{HOME} = $tmpdir;

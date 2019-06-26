@@ -8,7 +8,9 @@ no lib '.';  # CVE-2016-1238
 use strict;
 use warnings;
 
+use Cwd ();
 use English qw(-no_match_vars);
+use File::Spec ();
 use File::Temp ();
 use FindBin ();
 

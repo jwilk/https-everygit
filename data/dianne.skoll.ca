@@ -1,0 +1,7 @@
+[rules]
+http://dianne.skoll.ca/ = https://dianne.skoll.ca/
+
+[tests]
+http://dianne.skoll.ca/projects/remind/git/Remind.git/ = https://dianne.skoll.ca/projects/remind/git/Remind.git/
+
+# vim:ft=dosini

@@ -75,6 +75,9 @@
 	insteadOf = http://dev.gnupg.org/source/
 	insteadOf = http://git.gnupg.org/
 
+[url "https://dianne.skoll.ca/"]
+	insteadOf = http://dianne.skoll.ca/
+
 [url "https://downloads.kitenet.net/"]
 	insteadOf = http://downloads.kitenet.net/
 

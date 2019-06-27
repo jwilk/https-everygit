@@ -256,6 +256,9 @@
 	insteadOf = git://git.savannah.nongnu.org/
 	insteadOf = http://git.savannah.nongnu.org/git/
 
+[url "https://git.sigxcpu.org/"]
+	insteadOf = http://git.sigxcpu.org/
+
 [url "https://git.sv.gnu.org/git/"]
 	insteadOf = git://git.sv.gnu.org/
 	insteadOf = http://git.sv.gnu.org/git/

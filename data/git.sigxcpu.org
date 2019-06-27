@@ -1,0 +1,7 @@
+[rules]
+http://git.sigxcpu.org/ = https://git.sigxcpu.org/
+
+[tests]
+http://git.sigxcpu.org/cgit/git-buildpackage = https://git.sigxcpu.org/cgit/git-buildpackage
+
+# vim:ft=dosini

@@ -1,0 +1,7 @@
+[rules]
+http://opendev.org/ = https://opendev.org/
+
+[tests]
+http://opendev.org/x/oaktree.git = https://opendev.org/x/oaktree.git
+
+# vim:ft=dosini

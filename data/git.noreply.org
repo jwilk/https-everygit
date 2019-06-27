@@ -1,0 +1,7 @@
+[rules]
+http://git.noreply.org/ = https://git.noreply.org/
+
+[tests]
+http://git.noreply.org/tools/weaselutils.git = https://git.noreply.org/tools/weaselutils.git
+
+# vim:ft=dosini

@@ -259,6 +259,9 @@
 [url "https://git.sigxcpu.org/"]
 	insteadOf = http://git.sigxcpu.org/
 
+[url "https://git.sur5r.net/"]
+	insteadOf = http://git.sur5r.net/
+
 [url "https://git.sv.gnu.org/git/"]
 	insteadOf = git://git.sv.gnu.org/
 	insteadOf = http://git.sv.gnu.org/git/

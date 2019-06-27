@@ -1,0 +1,7 @@
+[rules]
+http://git.sur5r.net/ = https://git.sur5r.net/
+
+[tests]
+http://git.sur5r.net/sysbacklight = https://git.sur5r.net/sysbacklight
+
+# vim:ft=dosini

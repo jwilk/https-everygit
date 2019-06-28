@@ -1,0 +1,7 @@
+[rules]
+http://review.coreboot.org/ = https://review.coreboot.org/
+
+[tests]
+http://review.coreboot.org/seabios.git = https://review.coreboot.org/seabios.git
+
+# vim:ft=dosini

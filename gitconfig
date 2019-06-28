@@ -230,6 +230,11 @@
 [url "https://git.noreply.org/"]
 	insteadOf = http://git.noreply.org/
 
+[url "https://git.notmuchmail.org/"]
+	insteadOf = git://git.notmuchmail.org/
+	insteadOf = git://notmuchmail.org/
+	insteadOf = http://git.notmuchmail.org/
+
 [url "https://git.openstack.org/"]
 	insteadOf = git://git.openstack.org/
 	insteadOf = http://git.openstack.org/

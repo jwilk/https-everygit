@@ -1,0 +1,10 @@
+[rules]
+git://git.notmuchmail.org/ = https://git.notmuchmail.org/
+git://notmuchmail.org/ = https://git.notmuchmail.org/
+
+[tests]
+git://git.notmuchmail.org/git/notmuch = https://git.notmuchmail.org/git/notmuch
+git://notmuchmail.org/git/notmuch = https://git.notmuchmail.org/git/notmuch
+http://git.notmuchmail.org/git/notmuch = https://git.notmuchmail.org/git/notmuch
+
+# vim:ft=dosini

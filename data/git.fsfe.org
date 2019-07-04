@@ -1,0 +1,7 @@
+[rules]
+http://git.fsfe.org/ = https://git.fsfe.org/
+
+[tests]
+http://git.fsfe.org/reuse/simple-hello.git = https://git.fsfe.org/reuse/simple-hello.git
+
+# vim:ft=dosini

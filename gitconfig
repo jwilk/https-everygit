@@ -222,6 +222,9 @@
 [url "https://git.lysator.liu.se/"]
 	insteadOf = http://git.lysator.liu.se/
 
+[url "https://git.marlam.de/"]
+	insteadOf = http://git.marlam.de/
+
 [url "https://git.netfilter.org/"]
 	insteadOf = git://git.netfilter.org/
 	insteadOf = http://git.netfilter.org/

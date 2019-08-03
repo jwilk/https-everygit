@@ -1,0 +1,7 @@
+[rules]
+http://git.marlam.de/ = https://git.marlam.de/
+
+[tests]
+http://git.marlam.de/git/msmtp.git = https://git.marlam.de/git/msmtp.git
+
+# vim:ft=dosini

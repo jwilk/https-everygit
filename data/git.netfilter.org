@@ -2,7 +2,7 @@
 git://git.netfilter.org/ = https://git.netfilter.org/
 
 [tests]
-git://git.netfilter.org/iptables = https://git.netfilter.org/iptables
+git://git.netfilter.org/iptables OFFLINE = https://git.netfilter.org/iptables
 http://git.netfilter.org/iptables = https://git.netfilter.org/iptables
 
 # vim:ft=dosini

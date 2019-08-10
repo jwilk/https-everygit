@@ -88,6 +88,10 @@
 [url "https://forge.imag.fr/anonscm/git/"]
 	insteadOf = http://forge.imag.fr/anonscm/git/
 
+[url "https://gerrit.ovirt.org/"]
+	insteadOf = git://gerrit.ovirt.org/
+	insteadOf = http://gerrit.ovirt.org/
+
 [url "https://gerrit.wikimedia.org/"]
 	insteadOf = http://gerrit.wikimedia.org/
 

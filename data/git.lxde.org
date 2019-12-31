@@ -3,8 +3,8 @@ git://git.lxde.org/ = https://git.lxde.org/git/
 git://git.lxde.org/git/ = https://git.lxde.org/git/
 
 [tests]
-git://git.lxde.org/git/lxde/lxdm.git = https://git.lxde.org/git/lxde/lxdm.git
-git://git.lxde.org/lxde/lxdm.git = https://git.lxde.org/git/lxde/lxdm.git
-http://git.lxde.org/git/lxde/lxdm.git = https://git.lxde.org/git/lxde/lxdm.git
+git://git.lxde.org/git/lxde/lxdm.git OFFLINE = https://git.lxde.org/git/lxde/lxdm.git
+git://git.lxde.org/lxde/lxdm.git OFFLINE = https://git.lxde.org/git/lxde/lxdm.git
+http://git.lxde.org/git/lxde/lxdm.git OFFLINE = https://git.lxde.org/git/lxde/lxdm.git
 
 # vim:ft=dosini

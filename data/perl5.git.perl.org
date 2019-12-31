@@ -2,7 +2,7 @@
 git://perl5.git.perl.org/ = https://perl5.git.perl.org/
 
 [tests]
-git://perl5.git.perl.org/perl.git = https://perl5.git.perl.org/perl.git
-http://perl5.git.perl.org/perl.git = https://perl5.git.perl.org/perl.git
+git://perl5.git.perl.org/perl.git OFFLINE = https://perl5.git.perl.org/perl.git
+http://perl5.git.perl.org/perl.git OFFLINE = https://perl5.git.perl.org/perl.git
 
 # vim:ft=dosini

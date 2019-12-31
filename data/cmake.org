@@ -2,7 +2,7 @@
 git://cmake.org/ = https://cmake.org/
 
 [tests]
-git://cmake.org/stage/cmake.git = https://cmake.org/stage/cmake.git
-http://cmake.org/stage/cmake.git = https://cmake.org/stage/cmake.git
+git://cmake.org/stage/cmake.git OFFLINE = https://cmake.org/stage/cmake.git
+http://cmake.org/stage/cmake.git OFFLINE = https://cmake.org/stage/cmake.git
 
 # vim:ft=dosini

@@ -3,7 +3,7 @@ http://git.llvm.org/ = https://git.llvm.org/
 http://llvm.org/git/ = https://git.llvm.org/git/
 
 [tests]
-http://git.llvm.org/git/llvm.git = https://git.llvm.org/git/llvm.git
-http://llvm.org/git/llvm.git = https://git.llvm.org/git/llvm.git
+http://git.llvm.org/git/libcxxabi.git = https://git.llvm.org/git/libcxxabi.git
+http://llvm.org/git/libcxxabi.git = https://git.llvm.org/git/libcxxabi.git
 
 # vim:ft=dosini

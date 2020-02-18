@@ -358,6 +358,9 @@
 	insteadOf = git://itk.org/
 	insteadOf = http://itk.org/
 
+[url "https://keithp.com/"]
+	insteadOf = http://keithp.com/
+
 [url "https://luajit.org/"]
 	insteadOf = http://luajit.org/
 

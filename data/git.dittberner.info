@@ -1,0 +1,7 @@
+[rules]
+http://git.dittberner.info/ = https://git.dittberner.info/
+
+[tests]
+http://git.dittberner.info/jan/debianmemberportfolio.git = https://git.dittberner.info/jan/debianmemberportfolio.git
+
+# vim:ft=dosini

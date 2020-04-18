@@ -2,7 +2,7 @@
 git://git.openldap.org/ = https://www.openldap.org/software/repo/
 
 [tests]
-git://git.openldap.org/openldap.git = https://www.openldap.org/software/repo/openldap.git
+git://git.openldap.org/openldap.git OFFLINE = https://www.openldap.org/software/repo/openldap.git
 http://www.openldap.org/software/repo/openldap.git = https://www.openldap.org/software/repo/openldap.git
 
 # vim:ft=dosini

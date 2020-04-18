@@ -2,6 +2,6 @@
 http://gitlab.isc.org/ = https://gitlab.isc.org/
 
 [tests]
-http://gitlab.isc.org/isc-projects/bind9.git = https://gitlab.isc.org/isc-projects/bind9.git
+http://gitlab.isc.org/isc-projects/stork.git = https://gitlab.isc.org/isc-projects/stork.git
 
 # vim:ft=dosini

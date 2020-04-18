@@ -2,6 +2,6 @@
 http://source.isc.org/ = https://source.isc.org/
 
 [tests]
-http://source.isc.org/git/dhcp.git = https://source.isc.org/git/dhcp.git
+http://source.isc.org/git/dhcp.git OFFLINE = https://source.isc.org/git/dhcp.git OFFLINE
 
 # vim:ft=dosini

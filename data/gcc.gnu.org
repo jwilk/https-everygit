@@ -1,0 +1,8 @@
+[rules]
+git://gcc.gnu.org/ = https://gcc.gnu.org/
+
+[tests]
+git://gcc.gnu.org/git/gcc-wwwdocs.git = https://gcc.gnu.org/git/gcc-wwwdocs.git
+http://gcc.gnu.org/git/gcc-wwwdocs.git = https://gcc.gnu.org/git/gcc-wwwdocs.git
+
+# vim:ft=dosini

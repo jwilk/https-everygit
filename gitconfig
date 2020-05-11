@@ -360,6 +360,9 @@
 [url "https://gitlab.mister-muffin.de/"]
 	insteadOf = http://gitlab.mister-muffin.de/
 
+[url "https://gitlab.xiph.org/"]
+	insteadOf = http://gitlab.xiph.org/
+
 [url "https://gitorious.org/"]
 	insteadOf = git://gitorious.org/
 	insteadOf = http://gitorious.org/

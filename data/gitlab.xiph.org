@@ -1,0 +1,7 @@
+[rules]
+http://gitlab.xiph.org/ = https://gitlab.xiph.org/
+
+[tests]
+http://gitlab.xiph.org/xiph/ogg.git = https://gitlab.xiph.org/xiph/ogg.git
+
+# vim:ft=dosini

@@ -1,0 +1,7 @@
+[rules]
+http://git.elephly.net/ = https://git.elephly.net/
+
+[tests]
+http://git.elephly.net/software/mumi.git = https://git.elephly.net/software/mumi.git
+
+# vim:ft=dosini

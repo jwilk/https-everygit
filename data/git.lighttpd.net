@@ -2,7 +2,7 @@
 git://git.lighttpd.net/ = https://git.lighttpd.net/
 
 [tests]
-git://git.lighttpd.net/lighttpd/lighttpd2.git = https://git.lighttpd.net/lighttpd/lighttpd2.git
+git://git.lighttpd.net/lighttpd/lighttpd2.git OFFLINE = https://git.lighttpd.net/lighttpd/lighttpd2.git
 http://git.lighttpd.net/lighttpd/lighttpd2.git = https://git.lighttpd.net/lighttpd/lighttpd2.git
 
 # vim:ft=dosini

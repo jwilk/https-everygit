@@ -1,0 +1,7 @@
+[rules]
+http://gitlab.manjaro.org/ = https://gitlab.manjaro.org/
+
+[tests]
+http://gitlab.manjaro.org/applications/pamac.git = https://gitlab.manjaro.org/applications/pamac.git
+
+# vim:ft=dosini

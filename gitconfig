@@ -357,6 +357,9 @@
 [url "https://gitlab.kitware.com/"]
 	insteadOf = http://gitlab.kitware.com/
 
+[url "https://gitlab.manjaro.org/"]
+	insteadOf = http://gitlab.manjaro.org/
+
 [url "https://gitlab.mister-muffin.de/"]
 	insteadOf = http://gitlab.mister-muffin.de/
 

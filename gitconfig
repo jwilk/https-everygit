@@ -205,6 +205,9 @@
 	insteadOf = git://git.launchpad.net/
 	insteadOf = http://git.launchpad.net/
 
+[url "https://git.lekensteyn.nl/"]
+	insteadOf = http://git.lekensteyn.nl/
+
 [url "https://git.libssh.org/"]
 	insteadOf = git://git.libssh.org/
 	insteadOf = http://git.libssh.org/

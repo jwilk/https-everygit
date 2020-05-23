@@ -167,6 +167,9 @@
 	insteadOf = git://git.ffmpeg.org/
 	insteadOf = http://git.ffmpeg.org/
 
+[url "https://git.foss21.org/"]
+	insteadOf = http://git.foss21.org/
+
 [url "https://git.fsfe.org/"]
 	insteadOf = http://git.fsfe.org/
 

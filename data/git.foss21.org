@@ -1,0 +1,7 @@
+[rules]
+http://git.foss21.org/ = https://git.foss21.org/
+
+[tests]
+http://git.foss21.org/slibtool = https://git.foss21.org/slibtool
+
+# vim:ft=dosini

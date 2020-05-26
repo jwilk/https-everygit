@@ -1,0 +1,8 @@
+[rules]
+git://git.openwrt.org/ = https://git.openwrt.org/
+
+[tests]
+git://git.openwrt.org/web.git = https://git.openwrt.org/web.git
+http://git.openwrt.org/web.git = https://git.openwrt.org/web.git
+
+# vim:ft=dosini

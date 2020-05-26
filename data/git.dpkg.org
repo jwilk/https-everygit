@@ -1,0 +1,7 @@
+[rules]
+http://git.dpkg.org/ = https://git.dpkg.org/
+
+[tests]
+http://git.dpkg.org/git/dpkg/dpkg-repack.git = https://git.dpkg.org/git/dpkg/dpkg-repack.git
+
+# vim:ft=dosini

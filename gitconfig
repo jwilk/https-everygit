@@ -157,6 +157,9 @@
 [url "https://git.dittberner.info/"]
 	insteadOf = http://git.dittberner.info/
 
+[url "https://git.dpkg.org/"]
+	insteadOf = http://git.dpkg.org/
+
 [url "https://git.einval.com/git/"]
 	insteadOf = http://git.einval.com/git/
 

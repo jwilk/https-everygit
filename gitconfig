@@ -118,6 +118,10 @@
 	insteadOf = git://git.apache.org/
 	insteadOf = http://git.apache.org/
 
+[url "https://git.archive.openwrt.org/"]
+	insteadOf = git://git.archive.openwrt.org/
+	insteadOf = http://git.archive.openwrt.org/
+
 [url "https://git.archlinux.org/"]
 	insteadOf = git://git.archlinux.org/
 	insteadOf = http://git.archlinux.org/

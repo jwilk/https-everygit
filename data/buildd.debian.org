@@ -1,0 +1,7 @@
+[rules]
+http://buildd.debian.org/ = https://buildd.debian.org/
+
+[tests]
+http://buildd.debian.org/git/wanna-build.git/ = https://buildd.debian.org/git/wanna-build.git/
+
+# vim:ft=dosini

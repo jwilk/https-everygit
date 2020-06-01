@@ -44,6 +44,9 @@
 [url "https://bugs.debian.org/"]
 	insteadOf = http://bugs.debian.org/
 
+[url "https://buildd.debian.org/"]
+	insteadOf = http://buildd.debian.org/
+
 [url "https://ceres-solver.googlesource.com/"]
 	insteadOf = http://ceres-solver.googlesource.com/
 

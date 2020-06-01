@@ -7,6 +7,8 @@ jobs:
     dist: trusty
   - perl: "5.30"
 before_install:
+- sudo sed -i -e 's#^mozilla/AddTrust_External_Root[.]crt$#!&#' /etc/ca-certificates.conf
+- sudo update-ca-certificates
 - export PERL_CPANM_OPT='--no-interactive --no-man-pages --notest --skip-satisfied'
 install:
 - cpanm IPC::System::Simple

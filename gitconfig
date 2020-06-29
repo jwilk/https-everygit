@@ -292,6 +292,14 @@
 [url "https://git.pwmt.org/"]
 	insteadOf = http://git.pwmt.org/
 
+[url "https://git.qemu-project.org/git/"]
+	insteadOf = git://git.qemu-project.org/
+	insteadOf = http://git.qemu-project.org/git/
+
+[url "https://git.qemu.org/git/"]
+	insteadOf = git://git.qemu.org/
+	insteadOf = http://git.qemu.org/git/
+
 [url "https://git.samba.org/"]
 	insteadOf = git://git.samba.org/
 	insteadOf = http://git.samba.org/

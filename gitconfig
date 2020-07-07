@@ -34,6 +34,9 @@
 	insteadOf = git://git.debian.org/git/
 	insteadOf = http://anonscm.debian.org/git/
 
+[url "https://bitbucket.hdfgroup.org/"]
+	insteadOf = http://bitbucket.hdfgroup.org/
+
 [url "https://bitbucket.org/"]
 	insteadOf = http://bitbucket.org/
 

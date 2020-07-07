@@ -1,0 +1,7 @@
+[rules]
+http://bitbucket.hdfgroup.org/ = https://bitbucket.hdfgroup.org/
+
+[tests]
+http://bitbucket.hdfgroup.org/scm/hdffr/hdf4 = https://bitbucket.hdfgroup.org/scm/hdffr/hdf4
+
+# vim:ft=dosini

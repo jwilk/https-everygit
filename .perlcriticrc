@@ -33,4 +33,7 @@ max_mccabe = 40
 [-ValuesAndExpressions::ProhibitNoisyQuotes]
 # no, thanks
 
+[-ValuesAndExpressions::ProhibitMagicNumbers]
+# no, thanks
+
 # vim:ft=dosini

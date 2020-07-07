@@ -18,7 +18,7 @@ use autodie qw(open close symlink);
 
 use Test::More;
 
-use IPC::System::Simple qw(capture);
+use IPC::Run qw();
 
 my $basedir = "$FindBin::Bin/..";
 $basedir = Cwd::realpath($basedir);
@@ -134,7 +134,9 @@ SKIP: {
         my ($url) = @_;
         my $cached = $ls_remote_cache{$url};
         return $cached if defined $cached;
-        my $output = capture('timeout', '10s', 'git', '-C', $tmpdir, 'ls-remote', $url, 'HEAD');
+        my $output;
+        IPC::Run::run(['git', '-C', $tmpdir, 'ls-remote', $url, 'HEAD'], '>', \$output, IPC::Run::timeout(10))
+            or die 'git failed';
         $output =~ s/\n.*//s;
         $ls_remote_cache{$url} = $output;
         return $output;
@@ -175,7 +177,8 @@ symlink(
 );
 
 while (my ($src, $dst) = each %repos) {
-    my $gitdst = capture('git', '-C', $tmpdir, 'ls-remote', '--get-url', $src);
+    my $gitdst;
+    IPC::Run::run(['git', '-C', $tmpdir, 'ls-remote', '--get-url', $src], '>', \$gitdst);
     chomp($gitdst);
     cmp_ok($gitdst, 'eq', $dst, "offline $src");
 }

@@ -11,7 +11,7 @@ before_install:
 - sudo update-ca-certificates
 - export PERL_CPANM_OPT='--no-interactive --no-man-pages --notest --skip-satisfied'
 install:
-- cpanm IPC::System::Simple
+- cpanm IPC::Run
 - cpanm Perl::Critic
 before_script:
 - if [[ $superficial ]]; then makeflags=only=github.com; fi

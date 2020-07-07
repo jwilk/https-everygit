@@ -148,6 +148,7 @@ SKIP: {
             eval {
                 $ls_src = ls_remote($src);
             } or do {
+                diag($EVAL_ERROR);
                 local $TODO = undef;
                 if (exists $repos_offline{$src}) {
                     $TODO = "$src is offline";
@@ -158,6 +159,7 @@ SKIP: {
             eval {
                 $ls_dst = ls_remote($dst);
             } or do {
+                diag($EVAL_ERROR);
                 local $TODO = undef;
                 if (exists $repos_offline{$dst}) {
                     $TODO = "$dst is offline" ;

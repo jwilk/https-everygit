@@ -18,6 +18,8 @@ before_script:
 script:
 - make -B
 - git diff --exit-code
+- sed -i -E -e '/^$/,$ { s/(https?:[/][/]blitiri[.]com[.]ar[/][^ ]+)/\1 OFFLINE/g }' data/* # FIXME
+- sed -i -E -e '/^$/,$ { s/(https?:[/][/]git[.]sigxcpu[.]org[/][^ ]+)/\1 OFFLINE/g }' data/* # FIXME
 - make test online=1 $makeflags
 - devel/run-perlcritic
 

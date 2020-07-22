@@ -1,0 +1,7 @@
+[rules]
+http://code.lm7.fr/ = https://code.lm7.fr/
+
+[tests]
+http://code.lm7.fr/mcy/gcp.git = https://code.lm7.fr/mcy/gcp.git
+
+# vim:ft=dosini

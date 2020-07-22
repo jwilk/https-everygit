@@ -60,6 +60,9 @@
 	insteadOf = git://cmake.org/
 	insteadOf = http://cmake.org/
 
+[url "https://code.lm7.fr/"]
+	insteadOf = http://code.lm7.fr/
+
 [url "https://code.qt.io/"]
 	insteadOf = git://code.qt.io/
 	insteadOf = http://code.qt.io/

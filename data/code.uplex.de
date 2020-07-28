@@ -1,0 +1,7 @@
+[rules]
+http://code.uplex.de/ = https://code.uplex.de/
+
+[tests]
+http://code.uplex.de/liblongpath/liblongpath.git = https://code.uplex.de/liblongpath/liblongpath.git
+
+# vim:ft=dosini

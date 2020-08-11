@@ -410,6 +410,9 @@
 [url "https://go.googlesource.com/"]
 	insteadOf = http://go.googlesource.com/
 
+[url "https://invent.kde.org/"]
+	insteadOf = http://invent.kde.org/
+
 [url "https://itk.org/"]
 	insteadOf = git://itk.org/
 	insteadOf = http://itk.org/

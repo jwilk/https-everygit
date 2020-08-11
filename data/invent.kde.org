@@ -1,0 +1,7 @@
+[rules]
+http://invent.kde.org/ = https://invent.kde.org/
+
+[tests]
+http://invent.kde.org/utilities/konsole.git = https://invent.kde.org/utilities/konsole.git
+
+# vim:ft=dosini

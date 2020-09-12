@@ -400,6 +400,9 @@
 [url "https://gitlab.mister-muffin.de/"]
 	insteadOf = http://gitlab.mister-muffin.de/
 
+[url "https://gitlab.tails.boum.org/"]
+	insteadOf = http://gitlab.tails.boum.org/
+
 [url "https://gitlab.xiph.org/"]
 	insteadOf = http://gitlab.xiph.org/
 

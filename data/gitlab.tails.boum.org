@@ -1,0 +1,7 @@
+[rules]
+http://gitlab.tails.boum.org/ = https://gitlab.tails.boum.org/
+
+[tests]
+http://gitlab.tails.boum.org/tails/mirror-pool.git = https://gitlab.tails.boum.org/tails/mirror-pool.git
+
+# vim:ft=dosini

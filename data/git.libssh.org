@@ -2,7 +2,7 @@
 git://git.libssh.org/ = https://git.libssh.org/
 
 [tests]
-git://git.libssh.org/projects/libssh.git = https://git.libssh.org/projects/libssh.git
+git://git.libssh.org/projects/libssh.git OFFLINE = https://git.libssh.org/projects/libssh.git
 http://git.libssh.org/projects/libssh.git = https://git.libssh.org/projects/libssh.git
 
 # vim:ft=dosini

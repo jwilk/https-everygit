@@ -1,0 +1,8 @@
+[rules]
+git://git.ipfire.org/ = https://git.ipfire.org/pub/git/
+
+[tests]
+git://git.ipfire.org/location/libloc.git = https://git.ipfire.org/pub/git/location/libloc.git
+http://git.ipfire.org/pub/git/location/libloc.git = https://git.ipfire.org/pub/git/location/libloc.git
+
+# vim:ft=dosini

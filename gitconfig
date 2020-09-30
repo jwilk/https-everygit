@@ -211,6 +211,10 @@
 	insteadOf = git://git.hadrons.org/
 	insteadOf = http://git.hadrons.org/
 
+[url "https://git.ipfire.org/pub/git/"]
+	insteadOf = git://git.ipfire.org/
+	insteadOf = http://git.ipfire.org/pub/git/
+
 [url "https://git.ipxe.org/"]
 	insteadOf = git://git.ipxe.org/
 	insteadOf = http://git.ipxe.org/

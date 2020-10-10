@@ -1,0 +1,7 @@
+[rules]
+http://git.sesse.net/ = https://git.sesse.net/
+
+[tests]
+http://git.sesse.net/plocate = https://git.sesse.net/plocate
+
+# vim:ft=dosini

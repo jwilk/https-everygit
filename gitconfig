@@ -325,6 +325,9 @@
 	insteadOf = git://git.savannah.nongnu.org/
 	insteadOf = http://git.savannah.nongnu.org/git/
 
+[url "https://git.sesse.net/"]
+	insteadOf = http://git.sesse.net/
+
 [url "https://git.sigxcpu.org/"]
 	insteadOf = http://git.sigxcpu.org/
 

@@ -342,6 +342,9 @@
 	insteadOf = git://git.sv.nongnu.org/
 	insteadOf = http://git.sv.nongnu.org/git/
 
+[url "https://git.synz.io/"]
+	insteadOf = http://git.synz.io/
+
 [url "https://git.tartarus.org/"]
 	insteadOf = git://git.tartarus.org/
 	insteadOf = http://git.tartarus.org/

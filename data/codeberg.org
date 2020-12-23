@@ -1,0 +1,7 @@
+[rules]
+http://codeberg.org/ = https://codeberg.org/
+
+[tests]
+http://codeberg.org/Codeberg/GetItOnCodeberg = https://codeberg.org/Codeberg/GetItOnCodeberg
+
+# vim:ft=dosini

@@ -76,6 +76,9 @@
 [url "https://code.wireshark.org/"]
 	insteadOf = http://code.wireshark.org/
 
+[url "https://codeberg.org/"]
+	insteadOf = http://codeberg.org/
+
 [url "https://common-lisp.net/"]
 	insteadOf = http://common-lisp.net/
 

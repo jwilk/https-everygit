@@ -331,6 +331,10 @@
 [url "https://git.sigxcpu.org/"]
 	insteadOf = http://git.sigxcpu.org/
 
+[url "https://git.spwhitton.name/"]
+	insteadOf = git://git.spwhitton.name/
+	insteadOf = http://git.spwhitton.name/
+
 [url "https://git.sur5r.net/"]
 	insteadOf = http://git.sur5r.net/
 

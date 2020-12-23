@@ -1,0 +1,8 @@
+[rules]
+git://git.spwhitton.name/ = https://git.spwhitton.name/
+
+[tests]
+git://git.spwhitton.name/mailscripts = https://git.spwhitton.name/mailscripts
+http://git.spwhitton.name/mailscripts = https://git.spwhitton.name/mailscripts
+
+# vim:ft=dosini

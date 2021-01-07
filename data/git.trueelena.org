@@ -1,0 +1,7 @@
+[rules]
+http://git.trueelena.org/ = https://git.trueelena.org/
+
+[tests]
+http://git.trueelena.org/software/debdate = https://git.trueelena.org/software/debdate
+
+# vim:ft=dosini

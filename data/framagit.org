@@ -1,0 +1,7 @@
+[rules]
+http://framagit.org/ = https://framagit.org/
+
+[tests]
+http://framagit.org/1ohmatr/sw/py/askpass.git = https://framagit.org/1ohmatr/sw/py/askpass.git
+
+# vim:ft=dosini

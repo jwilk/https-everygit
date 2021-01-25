@@ -188,6 +188,9 @@
 [url "https://git.elephly.net/"]
 	insteadOf = http://git.elephly.net/
 
+[url "https://git.envs.net/"]
+	insteadOf = http://git.envs.net/
+
 [url "https://git.ffmpeg.org/"]
 	insteadOf = git://git.ffmpeg.org/
 	insteadOf = http://git.ffmpeg.org/

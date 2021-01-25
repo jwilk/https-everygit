@@ -1,0 +1,7 @@
+[rules]
+http://git.envs.net/ = https://git.envs.net/
+
+[tests]
+http://git.envs.net/mpech/ascii-crc = https://git.envs.net/mpech/ascii-crc
+
+# vim:ft=dosini

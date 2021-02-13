@@ -1,0 +1,7 @@
+[rules]
+http://i2pgit.org/ = https://i2pgit.org/
+
+[tests]
+http://i2pgit.org/i2pgit/tos.git = https://i2pgit.org/i2pgit/tos.git
+
+# vim:ft=dosini

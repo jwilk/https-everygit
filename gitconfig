@@ -404,6 +404,9 @@
 [url "https://gitbox.apache.org/"]
 	insteadOf = http://gitbox.apache.org/
 
+[url "https://gitgud.io/"]
+	insteadOf = http://gitgud.io/
+
 [url "https://github.com/"]
 	insteadOf = git://github.com/
 	insteadOf = http://github.com/

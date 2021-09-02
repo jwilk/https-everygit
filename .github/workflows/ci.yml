@@ -28,6 +28,7 @@ jobs:
     - name: mark some hosts as temporarily offline
       run: |
         disable() { perl -pi -e '/^[[]/ and $ok = 0; /[[]tests[]]/ and $ok = 1; $ok and s{/\Q'"$1"'\E/\S+}{$& OFFLINE}g' data/*; }
+        disable fedorapeople.org
         disable git.busybox.net
         disable git.gitano.org.uk
         disable git.sigxcpu.org

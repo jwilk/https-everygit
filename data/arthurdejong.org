@@ -1,0 +1,7 @@
+[rules]
+http://arthurdejong.org/ = https://arthurdejong.org/
+
+[tests]
+http://arthurdejong.org/git/python-stdnum = https://arthurdejong.org/git/python-stdnum
+
+# vim:ft=dosini

@@ -2,6 +2,6 @@
 http://dianne.skoll.ca/ = https://dianne.skoll.ca/
 
 [tests]
-http://dianne.skoll.ca/projects/remind/git/Remind.git/ = https://dianne.skoll.ca/projects/remind/git/Remind.git/
+http://dianne.skoll.ca/projects/remind/git/Remind.git/ OFFLINE = https://dianne.skoll.ca/projects/remind/git/Remind.git/ OFFLINE
 
 # vim:ft=dosini

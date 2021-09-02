@@ -2,7 +2,7 @@
 git://git.archlinux.org/ = https://git.archlinux.org/
 
 [tests]
-git://git.archlinux.org/pacman.git = https://git.archlinux.org/pacman.git
-http://git.archlinux.org/pacman.git = https://git.archlinux.org/pacman.git
+git://git.archlinux.org/pacman.git OFFLINE = https://git.archlinux.org/pacman.git OFFLINE
+http://git.archlinux.org/pacman.git OFFLINE = https://git.archlinux.org/pacman.git OFFLINE
 
 # vim:ft=dosini

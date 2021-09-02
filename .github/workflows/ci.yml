@@ -1,0 +1,42 @@
+name: CI
+on:
+- push
+- pull_request
+jobs:
+  main:
+    strategy:
+      matrix:
+        include:
+        - os: ubuntu-18.04
+        - os: ubuntu-20.04
+          full: true
+    runs-on: ${{matrix.os}}
+    steps:
+    - uses: actions/checkout@v2
+    - name: install deps
+      run:
+        sudo apt-get install libipc-run-perl libperl-critic-perl
+    - name: run perlcritic
+      run:
+        devel/run-perlcritic
+    - name: rebuild the rules
+      run:
+        make -B
+    - name: check sync
+      run:
+        git diff --exit-code
+    - name: mark some hosts as temporarily offline
+      run: |
+        disable() { perl -pi -e '/^[[]/ and $ok = 0; /[[]tests[]]/ and $ok = 1; $ok and s{/\Q'"$1"'\E/\S+}{$& OFFLINE}g' data/*; }
+        disable git.busybox.net
+        disable git.gitano.org.uk
+        disable git.sigxcpu.org
+        disable twaugh.fedorapeople.org
+        git diff -U0
+    - name: run tests
+      run:
+        make test online=1 $makeflags
+      env:
+        makeflags: ${{(matrix.full && ' ') || 'only=github.com'}}
+
+# vim:ts=2 sts=2 sw=2 et

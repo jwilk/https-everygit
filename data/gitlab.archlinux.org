@@ -1,0 +1,7 @@
+[rules]
+http://gitlab.archlinux.org/ = https://gitlab.archlinux.org/
+
+[tests]
+http://gitlab.archlinux.org/pacman/pacman.git = https://gitlab.archlinux.org/pacman/pacman.git
+
+# vim:ft=dosini

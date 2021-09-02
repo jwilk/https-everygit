@@ -343,6 +343,9 @@
 [url "https://git.sigxcpu.org/"]
 	insteadOf = http://git.sigxcpu.org/
 
+[url "https://git.skoll.ca/"]
+	insteadOf = http://git.skoll.ca/
+
 [url "https://git.spwhitton.name/"]
 	insteadOf = git://git.spwhitton.name/
 	insteadOf = http://git.spwhitton.name/

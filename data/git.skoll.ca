@@ -1,0 +1,7 @@
+[rules]
+http://git.skoll.ca/ = https://git.skoll.ca/
+
+[tests]
+http://git.skoll.ca/Skollsoft-Public/Remind.git = https://git.skoll.ca/Skollsoft-Public/Remind.git
+
+# vim:ft=dosini

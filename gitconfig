@@ -378,6 +378,9 @@
 [url "https://git.tukaani.org/"]
 	insteadOf = http://git.tukaani.org/
 
+[url "https://git.unit193.net/"]
+	insteadOf = http://git.unit193.net/
+
 [url "https://git.videolan.org/git/"]
 	insteadOf = git://git.videolan.org/
 	insteadOf = git://source.ffmpeg.org/

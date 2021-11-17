@@ -1,0 +1,7 @@
+[rules]
+http://git.unit193.net/ = https://git.unit193.net/
+
+[tests]
+http://git.unit193.net/cgit/users/unit193/inxi.git = https://git.unit193.net/cgit/users/unit193/inxi.git
+
+# vim:ft=dosini

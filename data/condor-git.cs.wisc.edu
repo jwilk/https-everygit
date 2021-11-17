@@ -2,6 +2,6 @@
 http://condor-git.cs.wisc.edu/ = https://condor-git.cs.wisc.edu/
 
 [tests]
-http://condor-git.cs.wisc.edu/repos/condor.git = https://condor-git.cs.wisc.edu/repos/condor.git
+http://condor-git.cs.wisc.edu/repos/condor.git OFFLINE = https://condor-git.cs.wisc.edu/repos/condor.git
 
 # vim:ft=dosini

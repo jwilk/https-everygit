@@ -1,0 +1,7 @@
+[rules]
+http://gitlab.torproject.org/ = https://gitlab.torproject.org/
+
+[tests]
+http://gitlab.torproject.org/tpo/core/tor.git = https://gitlab.torproject.org/tpo/core/tor.git
+
+# vim:ft=dosini

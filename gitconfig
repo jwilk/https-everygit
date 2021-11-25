@@ -444,6 +444,9 @@
 [url "https://gitlab.tails.boum.org/"]
 	insteadOf = http://gitlab.tails.boum.org/
 
+[url "https://gitlab.torproject.org/"]
+	insteadOf = http://gitlab.torproject.org/
+
 [url "https://gitlab.xiph.org/"]
 	insteadOf = http://gitlab.xiph.org/
 

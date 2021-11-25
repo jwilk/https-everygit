@@ -9,7 +9,7 @@ jobs:
         include:
         - os: ubuntu-18.04
         - os: ubuntu-20.04
-          full: true
+          full: full
     runs-on: ${{matrix.os}}
     steps:
     - uses: actions/checkout@v2
@@ -36,7 +36,7 @@ jobs:
         git diff -U0
     - name: run tests
       run:
-        make test online=1 $makeflags
+        make test online=1 ${{env.makeflags}}
       env:
         makeflags: ${{(matrix.full && ' ') || 'only=github.com'}}
 

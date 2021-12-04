@@ -1,0 +1,7 @@
+[rules]
+http://forge.dotslashplay.it/ = https://forge.dotslashplay.it/
+
+[tests]
+http://forge.dotslashplay.it/play.it/scripts.git = https://forge.dotslashplay.it/play.it/scripts.git
+
+# vim:ft=dosini

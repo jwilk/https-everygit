@@ -41,6 +41,7 @@ jobs:
     - name: run tests
       run:
         make test online=1 ${{env.makeflags}}
+      timeout-minutes: 15
       env:
         makeflags: ${{(matrix.full && ' ') || 'only=github.com'}}
 

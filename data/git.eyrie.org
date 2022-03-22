@@ -1,0 +1,7 @@
+[rules]
+http://git.eyrie.org/ = https://git.eyrie.org/
+
+[tests]
+http://git.eyrie.org/git/perl/ansicolor.git = https://git.eyrie.org/git/perl/ansicolor.git
+
+# vim:ft=dosini

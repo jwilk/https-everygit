@@ -17,7 +17,7 @@ $basedir = Cwd::realpath($basedir);
 $basedir = File::Spec->abs2rel($basedir);
 
 if (@ARGV != 1) {
-    print { *STDERR } "Usage: $PROGRAM_NAME <repo>\n";
+    print { *STDERR } "Usage: $PROGRAM_NAME REPO\n";
     print { *STDERR } "e.g.:  $PROGRAM_NAME git://git.example.org/foobar.git\n";
     exit 1;
 }

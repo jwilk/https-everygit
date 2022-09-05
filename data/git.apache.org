@@ -3,6 +3,6 @@ git://git.apache.org/ = https://git.apache.org/
 
 [tests]
 git://git.apache.org/httpd.git OFFLINE = https://git.apache.org/httpd.git
-http://git.apache.org/httpd.git = https://git.apache.org/httpd.git
+http://git.apache.org/httpd.git OFFLINE = https://git.apache.org/httpd.git
 
 # vim:ft=dosini

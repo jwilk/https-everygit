@@ -245,6 +245,10 @@
 	insteadOf = git://git.kernel.org/
 	insteadOf = http://git.kernel.org/
 
+[url "https://git.kraxel.org/git/"]
+	insteadOf = git://git.kraxel.org/
+	insteadOf = http://git.kraxel.org/git/
+
 [url "https://git.launchpad.net/"]
 	insteadOf = git://git.launchpad.net/
 	insteadOf = http://git.launchpad.net/

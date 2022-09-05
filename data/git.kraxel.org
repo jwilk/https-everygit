@@ -1,0 +1,8 @@
+[rules]
+git://git.kraxel.org/ = https://git.kraxel.org/git/
+
+[tests]
+git://git.kraxel.org/input = https://git.kraxel.org/git/input
+http://git.kraxel.org/git/input = https://git.kraxel.org/git/input
+
+# vim:ft=dosini

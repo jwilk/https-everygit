@@ -43,6 +43,9 @@
 [url "https://bitbucket.org/"]
 	insteadOf = http://bitbucket.org/
 
+[url "https://bitmath.org/"]
+	insteadOf = http://bitmath.org/
+
 [url "https://blitiri.com.ar/repos/"]
 	insteadOf = git://blitiri.com.ar/
 	insteadOf = http://blitiri.com.ar/repos/

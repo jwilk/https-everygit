@@ -1,0 +1,7 @@
+[rules]
+http://bitmath.org/ = https://bitmath.org/
+
+[tests]
+http://bitmath.org/git/mtdev.git = https://bitmath.org/git/mtdev.git
+
+# vim:ft=dosini

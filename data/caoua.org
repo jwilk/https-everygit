@@ -1,0 +1,7 @@
+[rules]
+http://caoua.org/ = https://caoua.org/
+
+[tests]
+http://caoua.org/git/sndio = https://caoua.org/git/sndio
+
+# vim:ft=dosini

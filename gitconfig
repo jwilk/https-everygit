@@ -53,6 +53,9 @@
 [url "https://buildd.debian.org/"]
 	insteadOf = http://buildd.debian.org/
 
+[url "https://caoua.org/"]
+	insteadOf = http://caoua.org/
+
 [url "https://ceres-solver.googlesource.com/"]
 	insteadOf = http://ceres-solver.googlesource.com/
 

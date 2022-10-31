@@ -1,0 +1,7 @@
+[rules]
+http://git.remlab.net/ = https://git.remlab.net/
+
+[tests]
+http://git.remlab.net/git/ndisc6.git = https://git.remlab.net/git/ndisc6.git
+
+# vim:ft=dosini

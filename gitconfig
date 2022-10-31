@@ -341,6 +341,9 @@
 	insteadOf = git://git.qemu.org/
 	insteadOf = http://git.qemu.org/git/
 
+[url "https://git.remlab.net/"]
+	insteadOf = http://git.remlab.net/
+
 [url "https://git.samba.org/"]
 	insteadOf = git://git.samba.org/
 	insteadOf = http://git.samba.org/

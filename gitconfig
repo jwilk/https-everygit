@@ -194,6 +194,10 @@
 [url "https://git.dpkg.org/"]
 	insteadOf = http://git.dpkg.org/
 
+[url "https://git.efficios.com/"]
+	insteadOf = git://git.efficios.com/
+	insteadOf = http://git.efficios.com/
+
 [url "https://git.einval.com/git/"]
 	insteadOf = http://git.einval.com/git/
 

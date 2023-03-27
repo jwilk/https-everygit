@@ -1,0 +1,8 @@
+[rules]
+git://git.suckless.org/ = https://git.suckless.org/
+
+[tests]
+git://git.suckless.org/libgrapheme = https://git.suckless.org/libgrapheme
+http://git.suckless.org/libgrapheme = https://git.suckless.org/libgrapheme
+
+# vim:ft=dosini

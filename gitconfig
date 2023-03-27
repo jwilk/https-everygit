@@ -373,6 +373,10 @@
 	insteadOf = git://git.spwhitton.name/
 	insteadOf = http://git.spwhitton.name/
 
+[url "https://git.suckless.org/"]
+	insteadOf = git://git.suckless.org/
+	insteadOf = http://git.suckless.org/
+
 [url "https://git.sur5r.net/"]
 	insteadOf = http://git.sur5r.net/
 

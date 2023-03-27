@@ -2,6 +2,6 @@
 http://gerrit.wikimedia.org/ = https://gerrit.wikimedia.org/
 
 [tests]
-http://gerrit.wikimedia.org/r/p/mediawiki/extensions/Nuke.git = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Nuke.git
+http://gerrit.wikimedia.org/r/p/mediawiki/extensions/Nuke.git OFFLINE = https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Nuke.git
 
 # vim:ft=dosini

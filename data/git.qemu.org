@@ -2,7 +2,7 @@
 git://git.qemu.org/ = https://git.qemu.org/git/
 
 [tests]
-git://git.qemu.org/seabios.git = https://git.qemu.org/git/seabios.git
+git://git.qemu.org/seabios.git OFFLINE = https://git.qemu.org/git/seabios.git
 http://git.qemu.org/git/seabios.git = https://git.qemu.org/git/seabios.git
 
 # vim:ft=dosini

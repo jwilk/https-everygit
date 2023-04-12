@@ -2,6 +2,6 @@
 http://git.sur5r.net/ = https://git.sur5r.net/
 
 [tests]
-http://git.sur5r.net/sysbacklight = https://git.sur5r.net/sysbacklight
+http://git.sur5r.net/sysbacklight OFFLINE = https://git.sur5r.net/sysbacklight OFFLINE
 
 # vim:ft=dosini

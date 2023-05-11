@@ -1,0 +1,8 @@
+[rules]
+git://git.subdivi.de/ = https://git.subdivi.de/
+
+[tests]
+git://git.subdivi.de/~helmut/debian-dedup.git = https://git.subdivi.de/~helmut/debian-dedup.git
+http://git.subdivi.de/~helmut/debian-dedup.git = https://git.subdivi.de/~helmut/debian-dedup.git
+
+# vim:ft=dosini

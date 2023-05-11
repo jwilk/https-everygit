@@ -1,0 +1,8 @@
+[rules]
+git://git.linta.de/ = https://git.linta.de/
+
+[tests]
+git://git.linta.de/~brodo/journald-ai.git = https://git.linta.de/~brodo/journald-ai.git
+http://git.linta.de/~brodo/journald-ai.git = https://git.linta.de/~brodo/journald-ai.git
+
+# vim:ft=dosini

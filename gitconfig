@@ -277,6 +277,10 @@
 [url "https://git.linaro.org/"]
 	insteadOf = http://git.linaro.org/
 
+[url "https://git.linta.de/"]
+	insteadOf = git://git.linta.de/
+	insteadOf = http://git.linta.de/
+
 [url "https://git.linuxtv.org/"]
 	insteadOf = git://git.linuxtv.org/
 	insteadOf = git://linuxtv.org/

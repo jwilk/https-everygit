@@ -338,6 +338,10 @@
 	insteadOf = git://git.osmocom.org/
 	insteadOf = http://git.osmocom.org/
 
+[url "https://git.pengutronix.de/git/"]
+	insteadOf = git://git.pengutronix.de/
+	insteadOf = http://git.pengutronix.de/git/
+
 [url "https://git.pwmt.org/"]
 	insteadOf = http://git.pwmt.org/
 

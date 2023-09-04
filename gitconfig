@@ -232,6 +232,10 @@
 	insteadOf = git://git.gnome.org/
 	insteadOf = http://git.gnome.org/browse/
 
+[url "https://git.gnu.org.ua/"]
+	insteadOf = git://git.gnu.org.ua/
+	insteadOf = http://git.gnu.org.ua/
+
 [url "https://git.guilhem.org/"]
 	insteadOf = http://git.guilhem.org/
 

@@ -1,0 +1,7 @@
+[rules]
+http://iankelling.org/ = https://iankelling.org/
+
+[tests]
+http://iankelling.org/git/lnf = https://iankelling.org/git/lnf
+
+# vim:ft=dosini

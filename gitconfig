@@ -503,6 +503,9 @@
 [url "https://i2pgit.org/"]
 	insteadOf = http://i2pgit.org/
 
+[url "https://iankelling.org/"]
+	insteadOf = http://iankelling.org/
+
 [url "https://invent.kde.org/"]
 	insteadOf = http://invent.kde.org/
 

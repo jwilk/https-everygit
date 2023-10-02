@@ -2,7 +2,7 @@
 git://gerrit.ovirt.org/ = https://gerrit.ovirt.org/
 
 [tests]
-git://gerrit.ovirt.org/pthreading.git = https://gerrit.ovirt.org/pthreading.git
+git://gerrit.ovirt.org/pthreading.git OFFLINE = https://gerrit.ovirt.org/pthreading.git
 http://gerrit.ovirt.org/pthreading.git = https://gerrit.ovirt.org/pthreading.git
 
 # vim:ft=dosini

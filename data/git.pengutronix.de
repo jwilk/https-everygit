@@ -2,7 +2,7 @@
 git://git.pengutronix.de/ = https://git.pengutronix.de/git/
 
 [tests]
-git://git.pengutronix.de/ukl/pengutronix-keyring = https://git.pengutronix.de/git/ukl/pengutronix-keyring
-http://git.pengutronix.de/git/ukl/pengutronix-keyring = https://git.pengutronix.de/git/ukl/pengutronix-keyring
+git://git.pengutronix.de/tools/dt-utils = https://git.pengutronix.de/git/tools/dt-utils
+http://git.pengutronix.de/git/tools/dt-utils = https://git.pengutronix.de/git/tools/dt-utils
 
 # vim:ft=dosini

@@ -2,7 +2,7 @@
 git://git.gitano.org.uk/ = https://git.gitano.org.uk/
 
 [tests]
-git://git.gitano.org.uk/gitano.git = https://git.gitano.org.uk/gitano.git
-http://git.gitano.org.uk/gitano.git = https://git.gitano.org.uk/gitano.git
+git://git.gitano.org.uk/gitano.git OFFLINE = https://git.gitano.org.uk/gitano.git OFFLINE
+http://git.gitano.org.uk/gitano.git OFFLINE = https://git.gitano.org.uk/gitano.git OFFLINE
 
 # vim:ft=dosini

@@ -562,6 +562,10 @@
 [url "https://twaugh.fedorapeople.org/"]
 	insteadOf = http://twaugh.fedorapeople.org/
 
+[url "https://vcs-git.duckcorp.org/"]
+	insteadOf = git://vcs-git.duckcorp.org/
+	insteadOf = http://vcs-git.duckcorp.org/
+
 [url "https://www.bamsoftware.com/git/"]
 	insteadOf = http://www.bamsoftware.com/git/
 

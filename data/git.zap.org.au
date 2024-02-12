@@ -1,0 +1,8 @@
+[rules]
+git://git.zap.org.au/ = https://git.zap.org.au/
+
+[tests]
+git://git.zap.org.au/data/git/console-fonts-utils.git = https://git.zap.org.au/data/git/console-fonts-utils.git
+http://git.zap.org.au/data/git/console-fonts-utils.git = https://git.zap.org.au/data/git/console-fonts-utils.git
+
+# vim:ft=dosini

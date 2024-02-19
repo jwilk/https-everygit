@@ -2,6 +2,6 @@
 http://www.tablix.org/~avian/git/ = https://www.tablix.org/~avian/git/
 
 [tests]
-http://www.tablix.org/~avian/git/unidecode.git = https://www.tablix.org/~avian/git/unidecode.git
+http://www.tablix.org/~avian/git/unidecode.git OFFLINE = https://www.tablix.org/~avian/git/unidecode.git OFFLINE
 
 # vim:ft=dosini

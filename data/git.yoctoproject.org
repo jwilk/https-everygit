@@ -1,0 +1,8 @@
+[rules]
+git://git.yoctoproject.org/ = https://git.yoctoproject.org/
+
+[tests]
+git://git.yoctoproject.org/poky = https://git.yoctoproject.org/poky
+http://git.yoctoproject.org/poky = https://git.yoctoproject.org/poky
+
+# vim:ft=dosini

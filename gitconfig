@@ -449,6 +449,10 @@
 	insteadOf = git://git.xiph.org/
 	insteadOf = http://git.xiph.org/
 
+[url "https://git.yoctoproject.org/"]
+	insteadOf = git://git.yoctoproject.org/
+	insteadOf = http://git.yoctoproject.org/
+
 [url "https://git.zap.org.au/"]
 	insteadOf = git://git.zap.org.au/
 	insteadOf = http://git.zap.org.au/

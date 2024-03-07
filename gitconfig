@@ -140,6 +140,10 @@
 	insteadOf = git://git.alpinelinux.org/
 	insteadOf = http://git.alpinelinux.org/cgit/
 
+[url "https://git.altlinux.org/"]
+	insteadOf = git://git.altlinux.org/
+	insteadOf = http://git.altlinux.org/
+
 [url "https://git.ao2.it/"]
 	insteadOf = git://git.ao2.it/
 	insteadOf = http://git.ao2.it/

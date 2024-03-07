@@ -1,0 +1,8 @@
+[rules]
+git://git.altlinux.org/ = https://git.altlinux.org/
+
+[tests]
+git://git.altlinux.org/people/ldv/packages/libutempter.git = https://git.altlinux.org/people/ldv/packages/libutempter.git
+http://git.altlinux.org/people/ldv/packages/libutempter.git = https://git.altlinux.org/people/ldv/packages/libutempter.git
+
+# vim:ft=dosini

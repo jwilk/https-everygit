@@ -172,6 +172,10 @@
 	insteadOf = git://git.blender.org/
 	insteadOf = http://git.blender.org/
 
+[url "https://git.breakpoint.cc/git/"]
+	insteadOf = git://git.breakpoint.cc/
+	insteadOf = http://git.breakpoint.cc/git/
+
 [url "https://git.busybox.net/"]
 	insteadOf = git://git.busybox.net/
 	insteadOf = http://git.busybox.net/

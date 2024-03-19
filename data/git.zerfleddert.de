@@ -1,0 +1,8 @@
+[rules]
+git://git.zerfleddert.de/ = https://git.zerfleddert.de/git/
+
+[tests]
+git://git.zerfleddert.de/m1-debian = https://git.zerfleddert.de/git/m1-debian
+http://git.zerfleddert.de/git/m1-debian = https://git.zerfleddert.de/git/m1-debian
+
+# vim:ft=dosini

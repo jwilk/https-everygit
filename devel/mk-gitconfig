@@ -22,12 +22,11 @@ print "# Do not edit directly.\n\n";
 
 for my $path (@ARGV)
 {
-    my $config;
     open(my $fh, '<', $path);
-    {
+    my $config = do {
         local $INPUT_RECORD_SEPARATOR = undef;
-        $config = <$fh>;
-    }
+        <$fh>;
+    };
     close($fh);
     $config =~ m/(?<=^\[rules\]\n)(((?!\[).*\n)+)/m or die;
     $config = $1;

@@ -1,0 +1,8 @@
+[rules]
+git://git.fruit.je/ = https://git.fruit.je/
+
+[tests]
+git://git.fruit.je/unsort = https://git.fruit.je/unsort
+http://git.fruit.je/unsort = https://git.fruit.je/unsort
+
+# vim:ft=dosini

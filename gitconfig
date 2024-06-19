@@ -225,6 +225,10 @@
 [url "https://git.foss21.org/"]
 	insteadOf = http://git.foss21.org/
 
+[url "https://git.fruit.je/"]
+	insteadOf = git://git.fruit.je/
+	insteadOf = http://git.fruit.je/
+
 [url "https://git.fsfe.org/"]
 	insteadOf = http://git.fsfe.org/
 

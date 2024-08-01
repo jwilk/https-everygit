@@ -105,6 +105,10 @@
 [url "https://downloads.kitenet.net/"]
 	insteadOf = http://downloads.kitenet.net/
 
+[url "https://erdgeist.org/gitweb/"]
+	insteadOf = git://erdgeist.org/
+	insteadOf = http://erdgeist.org/gitweb/
+
 [url "https://fedorapeople.org/cgit/"]
 	insteadOf = git://fedorapeople.org/home/fedora/
 	insteadOf = http://fedorapeople.org/cgit/

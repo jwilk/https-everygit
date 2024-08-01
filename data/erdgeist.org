@@ -1,0 +1,8 @@
+[rules]
+git://erdgeist.org/ = https://erdgeist.org/gitweb/
+
+[tests]
+git://erdgeist.org/opentracker = https://erdgeist.org/gitweb/opentracker
+http://erdgeist.org/gitweb/opentracker = https://erdgeist.org/gitweb/opentracker
+
+# vim:ft=dosini

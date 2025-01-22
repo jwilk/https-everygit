@@ -2,7 +2,7 @@
 git://vcs-git.duckcorp.org/ = https://vcs-git.duckcorp.org/
 
 [tests]
-git://vcs-git.duckcorp.org/projects/bip/bip.git = https://vcs-git.duckcorp.org/projects/bip/bip.git
+git://vcs-git.duckcorp.org/projects/bip/bip.git OFFLINE = https://vcs-git.duckcorp.org/projects/bip/bip.git
 http://vcs-git.duckcorp.org/projects/bip/bip.git = https://vcs-git.duckcorp.org/projects/bip/bip.git
 
 # vim:ft=dosini

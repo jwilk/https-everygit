@@ -2,6 +2,6 @@
 http://forge.dotslashplay.it/ = https://forge.dotslashplay.it/
 
 [tests]
-http://forge.dotslashplay.it/play.it/scripts.git = https://forge.dotslashplay.it/play.it/scripts.git
+http://forge.dotslashplay.it/play.it/website.git = https://forge.dotslashplay.it/play.it/website.git
 
 # vim:ft=dosini

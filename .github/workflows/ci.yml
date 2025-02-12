@@ -39,6 +39,7 @@ jobs:
         disable git.sigxcpu.org
         disable keithp.com
         disable twaugh.fedorapeople.org
+        disable vcs-git.duckcorp.org
         git diff -U0
     - name: run tests
       run:

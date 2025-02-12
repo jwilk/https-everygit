@@ -37,6 +37,7 @@ jobs:
         disable git.busybox.net
         disable git.sesse.net  # https://blog.sesse.net/blog/tech/2024-12-31-09-48_git_sesse_net_goes_ipv6_only
         disable git.sigxcpu.org
+        disable keithp.com
         disable twaugh.fedorapeople.org
         git diff -U0
     - name: run tests

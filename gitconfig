@@ -573,6 +573,10 @@
 [url "https://scm.gforge.inria.fr/anonscm/git/"]
 	insteadOf = http://scm.gforge.inria.fr/anonscm/git/
 
+[url "https://scm.sourcemage.org/"]
+	insteadOf = git://scm.sourcemage.org/
+	insteadOf = http://scm.sourcemage.org/
+
 [url "https://skia.googlesource.com/"]
 	insteadOf = http://skia.googlesource.com/
 

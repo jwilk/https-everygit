@@ -1,0 +1,8 @@
+[rules]
+git://scm.sourcemage.org/ = https://scm.sourcemage.org/
+
+[tests]
+git://scm.sourcemage.org/smgl/sorcery.git = https://scm.sourcemage.org/smgl/sorcery.git
+http://scm.sourcemage.org/smgl/sorcery.git = https://scm.sourcemage.org/smgl/sorcery.git
+
+# vim:ft=dosini

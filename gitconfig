@@ -365,6 +365,10 @@
 	insteadOf = git://git.pengutronix.de/
 	insteadOf = http://git.pengutronix.de/git/
 
+[url "https://git.proxmox.com/"]
+	insteadOf = git://git.proxmox.com/
+	insteadOf = http://git.proxmox.com/
+
 [url "https://git.pwmt.org/"]
 	insteadOf = http://git.pwmt.org/
 

@@ -11,6 +11,7 @@ jobs:
         - os: ubuntu-22.04
           full: full
         - os: ubuntu-24.04
+        - os: ubuntu-26.04
     runs-on: ${{matrix.os}}
     steps:
     - uses: actions/checkout@v4

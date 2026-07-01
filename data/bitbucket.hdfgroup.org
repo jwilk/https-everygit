@@ -2,6 +2,6 @@
 http://bitbucket.hdfgroup.org/ = https://bitbucket.hdfgroup.org/
 
 [tests]
-http://bitbucket.hdfgroup.org/scm/hdffv/hdf5-examples.git = https://bitbucket.hdfgroup.org/scm/hdffv/hdf5-examples.git
+http://bitbucket.hdfgroup.org/scm/hdffv/hdf5-examples.git OFFLINE = https://bitbucket.hdfgroup.org/scm/hdffv/hdf5-examples.git OFFLINE
 
 # vim:ft=dosini

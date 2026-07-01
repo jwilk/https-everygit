@@ -4,7 +4,7 @@ http://git.openldap.org/ = https://git.openldap.org/
 
 [tests]
 git://git.openldap.org/openldap.git OFFLINE = https://www.openldap.org/software/repo/openldap.git OFFLINE
-http://git.openldap.org/openldap/openldap.git = https://git.openldap.org/openldap/openldap.git
+http://git.openldap.org/openldap/openldap.git OFFLINE = https://git.openldap.org/openldap/openldap.git OFFLINE
 http://www.openldap.org/software/repo/openldap.git OFFLINE = https://www.openldap.org/software/repo/openldap.git OFFLINE
 
 # vim:ft=dosini

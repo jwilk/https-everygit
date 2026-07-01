@@ -2,7 +2,7 @@
 git://git.archive.openwrt.org/ = https://git.archive.openwrt.org/
 
 [tests]
-git://git.archive.openwrt.org/packages.git = https://git.archive.openwrt.org/packages.git
-http://git.archive.openwrt.org/packages.git = https://git.archive.openwrt.org/packages.git
+git://git.archive.openwrt.org/packages.git = https://git.archive.openwrt.org/packages.git OFFLINE
+http://git.archive.openwrt.org/packages.git OFFLINE = https://git.archive.openwrt.org/packages.git OFFLINE
 
 # vim:ft=dosini

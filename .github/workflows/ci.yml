@@ -41,6 +41,7 @@ jobs:
         disable keithp.com
         disable twaugh.fedorapeople.org
         disable vcs-git.duckcorp.org
+        disable git.unit193.net
         git diff -U0
     - name: run tests
       run:

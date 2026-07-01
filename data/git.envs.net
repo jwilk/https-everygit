@@ -2,6 +2,6 @@
 http://git.envs.net/ = https://git.envs.net/
 
 [tests]
-http://git.envs.net/mpech/ascii-crc = https://git.envs.net/mpech/ascii-crc
+http://git.envs.net/envs/help = https://git.envs.net/envs/help
 
 # vim:ft=dosini

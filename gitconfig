@@ -126,6 +126,10 @@
 	insteadOf = git://gcc.gnu.org/
 	insteadOf = http://gcc.gnu.org/
 
+[url "https://gerrit.libreoffice.org/"]
+	insteadOf = git://gerrit.libreoffice.org/
+	insteadOf = http://gerrit.libreoffice.org/
+
 [url "https://gerrit.ovirt.org/"]
 	insteadOf = git://gerrit.ovirt.org/
 	insteadOf = http://gerrit.ovirt.org/

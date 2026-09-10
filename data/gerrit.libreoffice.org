@@ -1,0 +1,8 @@
+[rules]
+git://gerrit.libreoffice.org/ = https://gerrit.libreoffice.org/
+
+[tests]
+git://gerrit.libreoffice.org/libabw = https://gerrit.libreoffice.org/libabw
+http://gerrit.libreoffice.org/libabw = https://gerrit.libreoffice.org/libabw
+
+# vim:ft=dosini
